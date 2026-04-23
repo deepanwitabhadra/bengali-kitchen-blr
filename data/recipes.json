@@ -1,0 +1,4700 @@
+[
+  {
+    "id": "shorshe-ilish",
+    "name": "Shorshe Ilish",
+    "bengali": "সর্ষে ইলিশ",
+    "region": "Kolkata",
+    "cookTime": 30,
+    "tags": [
+      "fish",
+      "mustard",
+      "classic",
+      "weekend"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "medium",
+    "description": "The crown jewel of Bengali cuisine — Hilsa fish in a pungent mustard gravy. Nothing beats this on a rainy Sunday.",
+    "ingredients": [
+      {
+        "name": "Hilsa fish (Ilish)",
+        "amount": "500g, cut into steaks",
+        "bangaloreSubstitute": "Rohu or Katla from KR Market fish section works well",
+        "orderLinks": {
+          "blinkit": "hilsa fish",
+          "bigbasket": "hilsa fish",
+          "swiggy": "hilsa fish"
+        }
+      },
+      {
+        "name": "Black mustard seeds",
+        "amount": "3 tbsp",
+        "orderLinks": {
+          "blinkit": "black mustard seeds",
+          "bigbasket": "black mustard seeds",
+          "swiggy": "mustard seeds"
+        }
+      },
+      {
+        "name": "Yellow mustard seeds",
+        "amount": "1 tbsp",
+        "orderLinks": {
+          "blinkit": "yellow mustard seeds",
+          "bigbasket": "yellow mustard seeds"
+        }
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "4 tbsp",
+        "bangaloreSubstitute": "Available at Nature's Basket, Namdhari's, or Amazon Fresh",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "mustard oil",
+          "swiggy": "mustard oil"
+        }
+      },
+      {
+        "name": "Green chillies",
+        "amount": "4-5, slit",
+        "orderLinks": {
+          "blinkit": "green chilli",
+          "bigbasket": "green chilli",
+          "swiggy": "green chilli"
+        }
+      },
+      {
+        "name": "Turmeric powder",
+        "amount": "1 tsp",
+        "orderLinks": {
+          "blinkit": "turmeric powder",
+          "bigbasket": "turmeric powder"
+        }
+      },
+      {
+        "name": "Salt",
+        "amount": "to taste"
+      }
+    ],
+    "steps": [
+      "Soak black and yellow mustard seeds in water for 20 minutes. Blend into a smooth paste with 2 green chillies and a pinch of salt.",
+      "Marinate fish pieces with turmeric and salt for 10 minutes.",
+      "Heat mustard oil in a wide pan until it smokes slightly. Reduce heat.",
+      "Lightly fry fish pieces for 2 minutes each side. Remove and set aside.",
+      "In the same oil, add mustard paste and remaining green chillies. Cook for 2 minutes.",
+      "Add ½ cup water, bring to simmer, then slide fish back in.",
+      "Cover and cook on low heat for 8-10 minutes. Drizzle 1 tsp raw mustard oil before serving."
+    ],
+    "prepTime": 20,
+    "prepNote": "Soak mustard seeds in water for 20 min before grinding into paste."
+  },
+  {
+    "id": "kathi-roll",
+    "name": "Kathi Roll",
+    "bengali": "কাঠি রোল",
+    "region": "Kolkata",
+    "cookTime": 20,
+    "tags": [
+      "street-food",
+      "quick",
+      "egg",
+      "chicken"
+    ],
+    "category": "street-food",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "Kolkata's legendary street roll — flaky paratha wrapped around spiced chicken or paneer with onions and chutney. Perfect weekday dinner.",
+    "ingredients": [
+      {
+        "name": "Maida (all-purpose flour) parathas or rotis",
+        "amount": "4",
+        "orderLinks": {
+          "blinkit": "paratha frozen",
+          "bigbasket": "frozen paratha",
+          "swiggy": "paratha"
+        }
+      },
+      {
+        "name": "Chicken breast",
+        "amount": "300g, thinly sliced",
+        "bangaloreSubstitute": "Boneless chicken thigh works even better — more flavour",
+        "orderLinks": {
+          "blinkit": "chicken breast boneless",
+          "bigbasket": "chicken breast",
+          "swiggy": "chicken breast"
+        }
+      },
+      {
+        "name": "Eggs",
+        "amount": "4",
+        "orderLinks": {
+          "blinkit": "eggs",
+          "bigbasket": "eggs",
+          "swiggy": "eggs"
+        }
+      },
+      {
+        "name": "Onion",
+        "amount": "2 large, thinly sliced",
+        "orderLinks": {
+          "blinkit": "onion",
+          "bigbasket": "onion"
+        }
+      },
+      {
+        "name": "Kashmiri red chilli powder",
+        "amount": "1 tsp",
+        "orderLinks": {
+          "blinkit": "kashmiri chilli powder",
+          "bigbasket": "kashmiri chilli powder"
+        }
+      },
+      {
+        "name": "Cumin powder",
+        "amount": "½ tsp",
+        "orderLinks": {
+          "blinkit": "cumin powder",
+          "bigbasket": "jeera powder"
+        }
+      },
+      {
+        "name": "Garam masala",
+        "amount": "½ tsp",
+        "orderLinks": {
+          "blinkit": "garam masala",
+          "bigbasket": "garam masala"
+        }
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "2 tbsp",
+        "orderLinks": {
+          "blinkit": "lemon",
+          "bigbasket": "lemon"
+        }
+      },
+      {
+        "name": "Green chutney",
+        "amount": "as needed",
+        "orderLinks": {
+          "blinkit": "green chutney",
+          "bigbasket": "mint chutney"
+        }
+      }
+    ],
+    "steps": [
+      "Marinate chicken with chilli powder, cumin, garam masala, lemon juice and salt for 15 minutes.",
+      "Cook chicken in a hot pan with oil for 6-8 minutes until done. Set aside.",
+      "In the same pan, cook parathas. Before the last flip, pour a beaten egg on the paratha and let it set.",
+      "Place paratha egg-side up. Add chicken, sliced onions, a squeeze of lemon, and green chutney.",
+      "Roll tightly and wrap the bottom half in foil or paper. Serve immediately."
+    ],
+    "prepTime": 15,
+    "prepNote": "Marinate chicken with spices and lemon for at least 15 min before cooking."
+  },
+  {
+    "id": "chingri-malai-curry",
+    "name": "Chingri Malai Curry",
+    "bengali": "চিংড়ি মালাই কারি",
+    "region": "Kolkata",
+    "cookTime": 35,
+    "tags": [
+      "prawn",
+      "coconut",
+      "creamy",
+      "weekend"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "medium",
+    "description": "Tiger prawns in silky coconut milk — a Bengali celebration dish that tastes like pure luxury.",
+    "ingredients": [
+      {
+        "name": "Tiger prawns",
+        "amount": "500g, deveined",
+        "bangaloreSubstitute": "Large Vannamei prawns from any supermarket fish counter",
+        "orderLinks": {
+          "blinkit": "tiger prawns",
+          "bigbasket": "prawns large",
+          "swiggy": "prawns"
+        }
+      },
+      {
+        "name": "Coconut milk",
+        "amount": "400ml",
+        "orderLinks": {
+          "blinkit": "coconut milk",
+          "bigbasket": "coconut milk",
+          "swiggy": "coconut milk"
+        }
+      },
+      {
+        "name": "Onion paste",
+        "amount": "2 medium onions, blended",
+        "orderLinks": {
+          "blinkit": "onion",
+          "bigbasket": "onion"
+        }
+      },
+      {
+        "name": "Ginger-garlic paste",
+        "amount": "1 tbsp",
+        "orderLinks": {
+          "blinkit": "ginger garlic paste",
+          "bigbasket": "ginger garlic paste"
+        }
+      },
+      {
+        "name": "Bay leaves",
+        "amount": "2",
+        "orderLinks": {
+          "blinkit": "bay leaves",
+          "bigbasket": "tej patta"
+        }
+      },
+      {
+        "name": "Green cardamom",
+        "amount": "3",
+        "orderLinks": {
+          "blinkit": "green cardamom",
+          "bigbasket": "elaichi"
+        }
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "3 tbsp",
+        "bangaloreSubstitute": "Available at Nature's Basket or Namdhari's",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "mustard oil"
+        }
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tsp"
+      }
+    ],
+    "steps": [
+      "Marinate prawns with turmeric and salt for 10 minutes.",
+      "Heat mustard oil. Fry prawns lightly for 2 minutes. Remove.",
+      "In the same oil, add bay leaves and cardamom. Then add onion paste and cook until golden.",
+      "Add ginger-garlic paste, turmeric, and salt. Cook 3 minutes.",
+      "Pour in coconut milk and sugar. Simmer for 5 minutes.",
+      "Add prawns back. Cook 5-6 minutes on low heat. Do not overcook.",
+      "Serve with steamed rice."
+    ],
+    "prepTime": 10,
+    "prepNote": "Marinate prawns with turmeric and salt 10 min before cooking."
+  },
+  {
+    "id": "aloo-posto",
+    "name": "Aloo Posto",
+    "bengali": "আলু পোস্তো",
+    "region": "Kolkata",
+    "cookTime": 20,
+    "tags": [
+      "veg",
+      "potato",
+      "poppy",
+      "quick",
+      "comfort"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Crispy-soft potatoes cooked in poppy seed paste — the ultimate Bengali comfort food. Ready in 20 minutes.",
+    "ingredients": [
+      {
+        "name": "Potatoes",
+        "amount": "4 medium, cubed",
+        "orderLinks": {
+          "blinkit": "potato",
+          "bigbasket": "potato"
+        }
+      },
+      {
+        "name": "Poppy seeds (posto)",
+        "amount": "3 tbsp, soaked and ground",
+        "bangaloreSubstitute": "Available at most grocery stores in Bangalore; also on BigBasket",
+        "orderLinks": {
+          "blinkit": "poppy seeds",
+          "bigbasket": "khus khus poppy seeds",
+          "swiggy": "poppy seeds"
+        }
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "3 tbsp",
+        "bangaloreSubstitute": "Nature's Basket or Namdhari's stocks mustard oil",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "mustard oil"
+        }
+      },
+      {
+        "name": "Green chillies",
+        "amount": "3, slit",
+        "orderLinks": {
+          "blinkit": "green chilli",
+          "bigbasket": "green chilli"
+        }
+      },
+      {
+        "name": "Kalonji (nigella seeds)",
+        "amount": "½ tsp",
+        "bangaloreSubstitute": "Available at specialty stores; skip if unavailable",
+        "orderLinks": {
+          "blinkit": "kalonji nigella",
+          "bigbasket": "kalonji seeds"
+        }
+      }
+    ],
+    "steps": [
+      "Soak poppy seeds for 15 minutes. Grind with green chillies and a little water into a paste.",
+      "Heat mustard oil until it smokes. Add kalonji seeds.",
+      "Add potatoes and fry on medium heat for 8-10 minutes until golden.",
+      "Add poppy paste, salt, and ½ cup water. Mix well.",
+      "Cover and cook on low heat for 5-6 minutes until potatoes are tender.",
+      "Serve with steamed rice and dal."
+    ],
+    "prepTime": 15,
+    "prepNote": "Soak poppy seeds in water for 15 min, then grind into paste before starting."
+  },
+  {
+    "id": "luchi-alur-torkari",
+    "name": "Luchi & Alur Torkari",
+    "bengali": "লুচি ও আলুর তরকারি",
+    "region": "Kolkata",
+    "cookTime": 40,
+    "tags": [
+      "veg",
+      "bread",
+      "potato",
+      "breakfast",
+      "weekend"
+    ],
+    "category": "bread",
+    "mealType": [
+      "breakfast",
+      "lunch"
+    ],
+    "isVeg": true,
+    "difficulty": "medium",
+    "description": "Puffy deep-fried white flour puri with spiced potato curry — the ultimate Bengali Sunday breakfast.",
+    "ingredients": [
+      {
+        "name": "Maida (all-purpose flour)",
+        "amount": "2 cups",
+        "orderLinks": {
+          "blinkit": "maida flour",
+          "bigbasket": "maida all purpose flour"
+        }
+      },
+      {
+        "name": "Oil",
+        "amount": "for deep frying",
+        "orderLinks": {
+          "blinkit": "refined oil",
+          "bigbasket": "sunflower oil"
+        }
+      },
+      {
+        "name": "Potatoes",
+        "amount": "4 medium, boiled and roughly mashed",
+        "orderLinks": {
+          "blinkit": "potato",
+          "bigbasket": "potato"
+        }
+      },
+      {
+        "name": "Panch phoron",
+        "amount": "1 tsp",
+        "bangaloreSubstitute": "Mix equal parts cumin, nigella, fennel, fenugreek, and mustard seeds",
+        "orderLinks": {
+          "blinkit": "panch phoron",
+          "bigbasket": "panch phoron five spice"
+        }
+      },
+      {
+        "name": "Dried red chillies",
+        "amount": "2",
+        "orderLinks": {
+          "blinkit": "dry red chilli",
+          "bigbasket": "dry red chilli"
+        }
+      },
+      {
+        "name": "Turmeric",
+        "amount": "½ tsp",
+        "orderLinks": {
+          "blinkit": "turmeric powder",
+          "bigbasket": "turmeric powder"
+        }
+      }
+    ],
+    "steps": [
+      "Mix maida with a pinch of salt, 1 tsp oil, and enough water to make a firm dough. Rest 20 minutes.",
+      "For torkari: heat oil, add panch phoron and dried red chillies.",
+      "Add boiled mashed potatoes, turmeric, salt and ½ cup water. Cook 5 minutes, mashing slightly.",
+      "Divide dough into small balls. Roll into small circles (puri-size).",
+      "Deep fry in hot oil until puffed and golden. Drain on paper.",
+      "Serve hot luchis with the torkari."
+    ]
+  },
+  {
+    "id": "macher-jhol",
+    "name": "Macher Jhol",
+    "bengali": "মাছের ঝোল",
+    "region": "Dhaka",
+    "cookTime": 30,
+    "tags": [
+      "fish",
+      "light",
+      "weekday",
+      "quick"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "Light, fragrant fish curry — the everyday Bengali dal equivalent. Comforting, healthy, and on the table in 30 minutes.",
+    "ingredients": [
+      {
+        "name": "Rohu or Katla fish",
+        "amount": "500g, cut into pieces",
+        "orderLinks": {
+          "blinkit": "rohu fish",
+          "bigbasket": "rohu fish",
+          "swiggy": "rohu fish"
+        }
+      },
+      {
+        "name": "Potato",
+        "amount": "2 medium, quartered",
+        "orderLinks": {
+          "blinkit": "potato",
+          "bigbasket": "potato"
+        }
+      },
+      {
+        "name": "Tomato",
+        "amount": "1 large, chopped",
+        "orderLinks": {
+          "blinkit": "tomato",
+          "bigbasket": "tomato"
+        }
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "3 tbsp",
+        "bangaloreSubstitute": "Available at Nature's Basket or Namdhari's",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "mustard oil"
+        }
+      },
+      {
+        "name": "Cumin seeds",
+        "amount": "1 tsp",
+        "orderLinks": {
+          "blinkit": "cumin seeds",
+          "bigbasket": "jeera seeds"
+        }
+      },
+      {
+        "name": "Turmeric powder",
+        "amount": "1 tsp",
+        "orderLinks": {
+          "blinkit": "turmeric powder",
+          "bigbasket": "turmeric powder"
+        }
+      },
+      {
+        "name": "Cumin powder",
+        "amount": "1 tsp",
+        "orderLinks": {
+          "blinkit": "cumin powder",
+          "bigbasket": "jeera powder"
+        }
+      },
+      {
+        "name": "Green chillies",
+        "amount": "3",
+        "orderLinks": {
+          "blinkit": "green chilli",
+          "bigbasket": "green chilli"
+        }
+      }
+    ],
+    "steps": [
+      "Marinate fish with turmeric and salt for 10 minutes.",
+      "Fry fish in hot mustard oil for 2-3 minutes each side. Remove.",
+      "In the same oil, add cumin seeds, then potato pieces. Fry 3 minutes.",
+      "Add tomato, turmeric, cumin powder, and salt. Cook until tomato softens.",
+      "Add 1.5 cups water, bring to boil, add green chillies.",
+      "Slide in fried fish. Cover and simmer 10 minutes.",
+      "Serve with steamed rice."
+    ],
+    "prepTime": 10,
+    "prepNote": "Marinate fish with turmeric and salt 10 min before frying."
+  },
+  {
+    "id": "mishti-doi",
+    "name": "Mishti Doi",
+    "bengali": "মিষ্টি দই",
+    "region": "Global",
+    "cookTime": 15,
+    "tags": [
+      "sweet",
+      "dessert",
+      "veg",
+      "chill"
+    ],
+    "category": "sweet",
+    "mealType": [],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Bengali sweet yoghurt — thickened milk set with caramelised sugar. Make it the night before, serve chilled. Perfect Bangalore dessert.",
+    "ingredients": [
+      {
+        "name": "Full-fat milk",
+        "amount": "1 litre",
+        "orderLinks": {
+          "blinkit": "full fat milk",
+          "bigbasket": "full cream milk"
+        }
+      },
+      {
+        "name": "Sugar",
+        "amount": "4 tbsp",
+        "orderLinks": {
+          "blinkit": "sugar",
+          "bigbasket": "sugar"
+        }
+      },
+      {
+        "name": "Plain yoghurt (starter)",
+        "amount": "2 tbsp",
+        "orderLinks": {
+          "blinkit": "curd plain",
+          "bigbasket": "plain curd dahi"
+        }
+      },
+      {
+        "name": "Cardamom powder",
+        "amount": "a pinch",
+        "orderLinks": {
+          "blinkit": "cardamom powder",
+          "bigbasket": "elaichi powder"
+        }
+      }
+    ],
+    "steps": [
+      "Reduce milk on medium heat to about 750ml, stirring frequently. This takes ~20 minutes.",
+      "In a separate pan, caramelise 3 tbsp sugar until golden brown. Add a splash of the hot milk to deglaze.",
+      "Mix caramel into reduced milk. Add remaining 1 tbsp sugar and cardamom. Cool to lukewarm (~40°C).",
+      "Whisk in the yoghurt starter. Pour into earthen pots (matki) or ramekins.",
+      "Set in a warm spot (or oven with just the light on) for 6-8 hours, then refrigerate.",
+      "Serve chilled — sweet, slightly tangy, slightly smoky from the caramel."
+    ]
+  },
+  {
+    "id": "panta-bhat",
+    "name": "Panta Bhat",
+    "bengali": "পান্তা ভাত",
+    "region": "Dhaka",
+    "cookTime": 10,
+    "tags": [
+      "rice",
+      "veg",
+      "fermented",
+      "quick",
+      "summer"
+    ],
+    "category": "rice",
+    "mealType": [
+      "breakfast",
+      "lunch"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Overnight fermented rice with mustard oil, onion, and green chilli — the original probiotic breakfast. Refreshing in Bangalore's heat.",
+    "ingredients": [
+      {
+        "name": "Leftover cooked rice",
+        "amount": "2 cups",
+        "orderLinks": {
+          "blinkit": "basmati rice",
+          "bigbasket": "rice"
+        }
+      },
+      {
+        "name": "Water",
+        "amount": "enough to submerge rice"
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "1 tsp",
+        "bangaloreSubstitute": "Available at Nature's Basket or Namdhari's",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "mustard oil"
+        }
+      },
+      {
+        "name": "Onion",
+        "amount": "½, sliced",
+        "orderLinks": {
+          "blinkit": "onion",
+          "bigbasket": "onion"
+        }
+      },
+      {
+        "name": "Green chilli",
+        "amount": "2",
+        "orderLinks": {
+          "blinkit": "green chilli",
+          "bigbasket": "green chilli"
+        }
+      },
+      {
+        "name": "Salt",
+        "amount": "to taste"
+      },
+      {
+        "name": "Dried mango powder or lemon juice",
+        "amount": "½ tsp",
+        "bangaloreSubstitute": "Amchur powder widely available; fresh lemon is fine too",
+        "orderLinks": {
+          "blinkit": "amchur dried mango",
+          "bigbasket": "amchur powder"
+        }
+      }
+    ],
+    "steps": [
+      "Soak cooked rice in water overnight (or at least 6 hours). It will ferment slightly.",
+      "Drain excess water, keeping some — the rice should be soft and slightly sour.",
+      "Add mustard oil, salt, and amchur/lemon juice. Mix gently.",
+      "Serve topped with sliced onion, green chillies, and a wedge of lemon.",
+      "Best eaten on a hot Bangalore morning. Cool, tangy, deeply satisfying."
+    ],
+    "prepTime": 360,
+    "prepNote": "Soak cooked rice in water overnight (minimum 6 hours) to ferment slightly."
+  },
+  {
+    "id": "bangladeshi-egg-roll",
+    "name": "Bangladeshi Egg Roll",
+    "bengali": "ডিমের রোল",
+    "region": "London",
+    "cookTime": 20,
+    "tags": [
+      "street-food",
+      "egg",
+      "quick",
+      "london-bengali"
+    ],
+    "category": "street-food",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "The UK Bangladeshi takeaway staple — a spiced omelette roll with salad and chilli sauce. London's Brick Lane in your kitchen.",
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "amount": "2 per roll",
+        "orderLinks": {
+          "blinkit": "eggs",
+          "bigbasket": "eggs"
+        }
+      },
+      {
+        "name": "Chapati or thin paratha",
+        "amount": "2",
+        "orderLinks": {
+          "blinkit": "chapati frozen",
+          "bigbasket": "frozen chapati roti"
+        }
+      },
+      {
+        "name": "Onion",
+        "amount": "1 small, finely sliced",
+        "orderLinks": {
+          "blinkit": "onion",
+          "bigbasket": "onion"
+        }
+      },
+      {
+        "name": "Iceberg lettuce",
+        "amount": "handful, shredded",
+        "orderLinks": {
+          "blinkit": "iceberg lettuce",
+          "bigbasket": "iceberg lettuce"
+        }
+      },
+      {
+        "name": "Sriracha or chilli sauce",
+        "amount": "2 tbsp",
+        "orderLinks": {
+          "blinkit": "sriracha chilli sauce",
+          "bigbasket": "chilli sauce"
+        }
+      },
+      {
+        "name": "Mixed spice (cumin + coriander + chilli)",
+        "amount": "½ tsp each",
+        "orderLinks": {
+          "blinkit": "cumin powder",
+          "bigbasket": "coriander powder"
+        }
+      }
+    ],
+    "steps": [
+      "Beat eggs with spices and a pinch of salt.",
+      "Toast chapati/paratha in a dry pan. Set aside.",
+      "Pour egg mix into pan. Before it sets fully, lay chapati on top.",
+      "Flip together so egg is on top of chapati. Slide onto plate.",
+      "Top with shredded lettuce, sliced onion, and drizzle of chilli sauce.",
+      "Roll tightly and enjoy the London-Bengali experience."
+    ]
+  },
+  {
+    "id": "chicken-rezala",
+    "name": "Chicken Rezala",
+    "bengali": "চিকেন রেজালা",
+    "region": "Dhaka",
+    "cookTime": 45,
+    "tags": [
+      "chicken",
+      "mughal",
+      "white-gravy",
+      "weekend"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "medium",
+    "description": "A Mughal-influenced white Dhaka curry — aromatic, slightly tangy, subtle spicing. The pride of Old Dhaka's kitchens.",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "amount": "750g, curry cut",
+        "orderLinks": {
+          "blinkit": "chicken curry cut",
+          "bigbasket": "chicken curry cut",
+          "swiggy": "chicken"
+        }
+      },
+      {
+        "name": "Plain yoghurt",
+        "amount": "1 cup",
+        "orderLinks": {
+          "blinkit": "curd plain",
+          "bigbasket": "plain curd"
+        }
+      },
+      {
+        "name": "Onion",
+        "amount": "3 large, thinly sliced and fried golden",
+        "orderLinks": {
+          "blinkit": "onion",
+          "bigbasket": "onion"
+        }
+      },
+      {
+        "name": "Ghee",
+        "amount": "3 tbsp",
+        "orderLinks": {
+          "blinkit": "ghee",
+          "bigbasket": "desi ghee"
+        }
+      },
+      {
+        "name": "White pepper",
+        "amount": "1 tsp",
+        "orderLinks": {
+          "blinkit": "white pepper powder",
+          "bigbasket": "white pepper"
+        }
+      },
+      {
+        "name": "Green cardamom",
+        "amount": "6",
+        "orderLinks": {
+          "blinkit": "green cardamom",
+          "bigbasket": "elaichi green"
+        }
+      },
+      {
+        "name": "Dried red chillies (Kashmiri)",
+        "amount": "4, soaked",
+        "orderLinks": {
+          "blinkit": "kashmiri red chilli",
+          "bigbasket": "kashmiri chilli"
+        }
+      },
+      {
+        "name": "Kewra water",
+        "amount": "1 tsp",
+        "bangaloreSubstitute": "Rose water works as substitute; available widely in Bangalore",
+        "orderLinks": {
+          "blinkit": "kewra water",
+          "bigbasket": "kewra water"
+        }
+      }
+    ],
+    "steps": [
+      "Marinate chicken in yoghurt, ginger-garlic paste, and white pepper for 30 minutes.",
+      "Fry onions in ghee until deep golden. Drain and make a paste with a little water.",
+      "In the same ghee, add cardamom. Add chicken and cook on high heat 5 minutes.",
+      "Add fried onion paste and soaked Kashmiri chillies. Cook 10 minutes.",
+      "Add 1 cup water. Cover and cook 20 minutes on low until chicken is tender.",
+      "Finish with kewra water. The gravy should be white-golden and fragrant.",
+      "Serve with naan or rice."
+    ],
+    "prepTime": 30,
+    "prepNote": "Marinate chicken in yoghurt and white pepper for at least 30 min before cooking."
+  },
+  {
+    "id": "bengali-fish-pie",
+    "name": "Bengali Fish Pie",
+    "bengali": "বেঙ্গলি ফিশ পাই",
+    "region": "London",
+    "cookTime": 50,
+    "tags": [
+      "fish",
+      "fusion",
+      "weekend",
+      "london-bengali",
+      "baked"
+    ],
+    "category": "fusion",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "hard",
+    "description": "A brilliant UK Bengali creation — the classic British fish pie infused with mustard, turmeric, and green chilli. Best of both worlds.",
+    "ingredients": [
+      {
+        "name": "White fish fillets (cod, haddock)",
+        "amount": "400g",
+        "bangaloreSubstitute": "Basa or Sole fillets from major supermarkets in Bangalore",
+        "orderLinks": {
+          "blinkit": "basa fish fillet",
+          "bigbasket": "basa fish fillet"
+        }
+      },
+      {
+        "name": "Potatoes",
+        "amount": "500g, boiled for mash",
+        "orderLinks": {
+          "blinkit": "potato",
+          "bigbasket": "potato"
+        }
+      },
+      {
+        "name": "Butter",
+        "amount": "50g",
+        "orderLinks": {
+          "blinkit": "amul butter",
+          "bigbasket": "amul butter"
+        }
+      },
+      {
+        "name": "Milk",
+        "amount": "200ml",
+        "orderLinks": {
+          "blinkit": "milk",
+          "bigbasket": "full cream milk"
+        }
+      },
+      {
+        "name": "Mustard paste (from seeds)",
+        "amount": "2 tbsp",
+        "orderLinks": {
+          "blinkit": "mustard seeds",
+          "bigbasket": "mustard seeds"
+        }
+      },
+      {
+        "name": "Turmeric",
+        "amount": "½ tsp",
+        "orderLinks": {
+          "blinkit": "turmeric powder",
+          "bigbasket": "turmeric powder"
+        }
+      },
+      {
+        "name": "Green chillies",
+        "amount": "2, finely chopped",
+        "orderLinks": {
+          "blinkit": "green chilli",
+          "bigbasket": "green chilli"
+        }
+      },
+      {
+        "name": "Cheddar cheese",
+        "amount": "50g, grated",
+        "bangaloreSubstitute": "Amul processed cheese or any grating cheese works",
+        "orderLinks": {
+          "blinkit": "cheddar cheese",
+          "bigbasket": "cheddar cheese"
+        }
+      }
+    ],
+    "steps": [
+      "Poach fish in turmeric-spiced milk for 8 minutes. Flake into chunks.",
+      "Make a white sauce with butter, flour, and the poaching milk. Stir in mustard paste and chillies.",
+      "Fold fish into the sauce. Pour into a baking dish.",
+      "Mash potatoes with butter and salt. Pipe or spread over fish mixture.",
+      "Top with grated cheese. Bake at 200°C for 20-25 minutes until golden.",
+      "Rest 5 minutes. Serve with a green salad."
+    ]
+  },
+  {
+    "id": "shingara",
+    "name": "Shingara",
+    "bengali": "শিঙাড়া",
+    "region": "Kolkata",
+    "cookTime": 35,
+    "tags": [
+      "snack",
+      "veg",
+      "street-food",
+      "fried",
+      "potato"
+    ],
+    "category": "snack",
+    "mealType": [
+      "breakfast",
+      "lunch"
+    ],
+    "isVeg": true,
+    "difficulty": "medium",
+    "description": "Bengali samosa — smaller, crispier, with a drier potato-cauliflower filling and the signature flaky crust. Tea-time essential.",
+    "ingredients": [
+      {
+        "name": "Maida",
+        "amount": "2 cups",
+        "orderLinks": {
+          "blinkit": "maida flour",
+          "bigbasket": "maida all purpose flour"
+        }
+      },
+      {
+        "name": "Potatoes",
+        "amount": "3, boiled and diced",
+        "orderLinks": {
+          "blinkit": "potato",
+          "bigbasket": "potato"
+        }
+      },
+      {
+        "name": "Cauliflower",
+        "amount": "½ cup, finely chopped",
+        "orderLinks": {
+          "blinkit": "cauliflower",
+          "bigbasket": "cauliflower"
+        }
+      },
+      {
+        "name": "Peas",
+        "amount": "¼ cup",
+        "orderLinks": {
+          "blinkit": "green peas",
+          "bigbasket": "green peas"
+        }
+      },
+      {
+        "name": "Panch phoron",
+        "amount": "½ tsp",
+        "bangaloreSubstitute": "Mix equal parts cumin, nigella, fennel, fenugreek, and mustard seeds",
+        "orderLinks": {
+          "blinkit": "panch phoron",
+          "bigbasket": "panch phoron"
+        }
+      },
+      {
+        "name": "Oil",
+        "amount": "for frying + 2 tbsp for dough",
+        "orderLinks": {
+          "blinkit": "refined oil",
+          "bigbasket": "sunflower oil"
+        }
+      }
+    ],
+    "steps": [
+      "Make dough with maida, 2 tbsp oil, salt, and water. Keep firm. Rest 20 minutes.",
+      "Heat oil. Add panch phoron, then cauliflower and peas. Cook 5 minutes.",
+      "Add potatoes, salt, and a pinch of amchur. Mix, dry out moisture. Cool.",
+      "Roll dough into oval shapes. Cut in half. Form cones, fill with mixture, seal edges.",
+      "Deep fry on medium heat 8-10 minutes, turning frequently until golden and crisp.",
+      "Serve with green chutney and tamarind sauce."
+    ]
+  },
+  {
+    "id": "dimer-devil",
+    "name": "Dimer Devil",
+    "bengali": "ডিমের ডেভিল",
+    "region": "Kolkata",
+    "cookTime": 30,
+    "tags": [
+      "egg",
+      "street-food",
+      "snack",
+      "fried",
+      "quick"
+    ],
+    "category": "snack",
+    "mealType": [
+      "breakfast",
+      "lunch"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "Deviled eggs Kolkata-style — hard-boiled eggs coated in spiced minced meat or potato, then fried golden. A colonial-era Calcutta favourite.",
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "amount": "4, hard boiled and halved",
+        "orderLinks": {
+          "blinkit": "eggs",
+          "bigbasket": "eggs"
+        }
+      },
+      {
+        "name": "Chicken mince or potato",
+        "amount": "200g",
+        "bangaloreSubstitute": "Potato version is equally delicious and easier to find",
+        "orderLinks": {
+          "blinkit": "chicken mince",
+          "bigbasket": "chicken mince"
+        }
+      },
+      {
+        "name": "Bread crumbs",
+        "amount": "½ cup",
+        "orderLinks": {
+          "blinkit": "bread crumbs",
+          "bigbasket": "bread crumbs"
+        }
+      },
+      {
+        "name": "Garam masala",
+        "amount": "½ tsp",
+        "orderLinks": {
+          "blinkit": "garam masala",
+          "bigbasket": "garam masala"
+        }
+      },
+      {
+        "name": "Egg wash",
+        "amount": "1 egg, beaten"
+      },
+      {
+        "name": "Oil",
+        "amount": "for shallow frying",
+        "orderLinks": {
+          "blinkit": "refined oil",
+          "bigbasket": "sunflower oil"
+        }
+      }
+    ],
+    "steps": [
+      "Cook mince with onion, ginger-garlic, garam masala and salt. Cool completely. (If using potato, boil and mash with same spices.)",
+      "Coat each egg half completely in the mince/potato mixture, forming an oval shape.",
+      "Dip in beaten egg, then roll in breadcrumbs.",
+      "Shallow fry until golden brown on all sides, about 3-4 minutes per side.",
+      "Serve with mustard or kasundi (Bengali mustard sauce) and green chutney."
+    ]
+  },
+  {
+    "id": "nyc-bengali-fusion-bowl",
+    "name": "NYC Bengali Fusion Bowl",
+    "bengali": "ফিউশন বোল",
+    "region": "NYC",
+    "cookTime": 25,
+    "tags": [
+      "fusion",
+      "quick",
+      "bowl",
+      "nyc-bengali",
+      "healthy"
+    ],
+    "category": "fusion",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "A New York Bengali creation — turmeric rice bowl with spiced chicken, raita, and panch phoron-roasted veggies. Weekday power meal.",
+    "ingredients": [
+      {
+        "name": "Cooked basmati rice",
+        "amount": "2 cups (with turmeric + mustard seeds cooked in)",
+        "orderLinks": {
+          "blinkit": "basmati rice",
+          "bigbasket": "basmati rice"
+        }
+      },
+      {
+        "name": "Chicken breast",
+        "amount": "300g",
+        "orderLinks": {
+          "blinkit": "chicken breast boneless",
+          "bigbasket": "chicken breast"
+        }
+      },
+      {
+        "name": "Mixed vegetables (bell pepper, zucchini, carrot)",
+        "amount": "2 cups, diced",
+        "orderLinks": {
+          "blinkit": "mixed vegetables",
+          "bigbasket": "mixed vegetables"
+        }
+      },
+      {
+        "name": "Panch phoron",
+        "amount": "1 tsp",
+        "bangaloreSubstitute": "Mix equal parts cumin, fennel, and nigella seeds",
+        "orderLinks": {
+          "blinkit": "panch phoron",
+          "bigbasket": "panch phoron"
+        }
+      },
+      {
+        "name": "Plain yoghurt",
+        "amount": "½ cup, for raita",
+        "orderLinks": {
+          "blinkit": "curd plain",
+          "bigbasket": "plain curd"
+        }
+      },
+      {
+        "name": "Kasundi (Bengali mustard sauce)",
+        "amount": "2 tbsp",
+        "bangaloreSubstitute": "Mix 1 tbsp mustard paste + 1 tsp honey + lemon juice",
+        "orderLinks": {
+          "blinkit": "kasundi mustard sauce",
+          "bigbasket": "kasundi bengali mustard"
+        }
+      }
+    ],
+    "steps": [
+      "Season chicken with turmeric, chilli powder, garam masala, salt. Grill or pan-sear 12-15 minutes. Slice.",
+      "Toss vegetables with panch phoron, oil, and salt. Roast at 200°C or stir-fry 8 minutes.",
+      "Make simple raita: yoghurt + roasted cumin + salt + chopped coriander.",
+      "Assemble bowl: turmeric rice base, sliced chicken, roasted veggies.",
+      "Drizzle kasundi over the top. Add raita on the side.",
+      "Weekday lunch sorted in 25 minutes."
+    ]
+  },
+  {
+    "id": "nolen-gur-kheer",
+    "name": "Nolen Gur Kheer",
+    "bengali": "নলেন গুড়ের খির",
+    "region": "Kolkata",
+    "cookTime": 40,
+    "tags": [
+      "sweet",
+      "dessert",
+      "rice",
+      "jaggery",
+      "winter",
+      "veg"
+    ],
+    "category": "sweet",
+    "mealType": [],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Bengali rice pudding made with date palm jaggery — smoky, caramel-sweet, deeply nostalgic. A winter Kolkata classic.",
+    "ingredients": [
+      {
+        "name": "Full-fat milk",
+        "amount": "1 litre",
+        "orderLinks": {
+          "blinkit": "full fat milk",
+          "bigbasket": "full cream milk"
+        }
+      },
+      {
+        "name": "Short-grain rice (gobindobhog)",
+        "amount": "3 tbsp",
+        "bangaloreSubstitute": "Short-grain or regular white rice works well. Gobindobhog available on BigBasket",
+        "orderLinks": {
+          "blinkit": "gobindobhog rice",
+          "bigbasket": "gobindobhog rice bengali"
+        }
+      },
+      {
+        "name": "Nolen gur (date palm jaggery)",
+        "amount": "80g",
+        "bangaloreSubstitute": "Regular jaggery (gur) works; add ½ tsp caramel essence for the smoky note. Nolen gur sometimes on BigBasket",
+        "orderLinks": {
+          "blinkit": "nolen gur date palm jaggery",
+          "bigbasket": "nolen gur bengali jaggery"
+        }
+      },
+      {
+        "name": "Green cardamom",
+        "amount": "2 pods, crushed",
+        "orderLinks": {
+          "blinkit": "green cardamom",
+          "bigbasket": "elaichi"
+        }
+      },
+      {
+        "name": "Bay leaf",
+        "amount": "1",
+        "orderLinks": {
+          "blinkit": "bay leaves",
+          "bigbasket": "tej patta"
+        }
+      }
+    ],
+    "steps": [
+      "Bring milk to boil with bay leaf. Add washed rice.",
+      "Simmer on low-medium heat, stirring frequently, for 25-30 minutes until milk thickens and rice is fully cooked.",
+      "Remove bay leaf. Add cardamom.",
+      "Take off heat, let cool slightly (important — hot milk will break the jaggery's flavour).",
+      "Stir in grated nolen gur. It will melt into the kheer, turning it a warm caramel colour.",
+      "Serve warm or chilled. The flavour deepens overnight in the fridge."
+    ]
+  },
+  {
+    "id": "doi-maach",
+    "name": "Doi Maach",
+    "bengali": "দই মাছ",
+    "region": "Kolkata",
+    "cookTime": 30,
+    "tags": [
+      "fish",
+      "yoghurt",
+      "weekend",
+      "mild"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "Fish cooked in a yoghurt-based sauce — creamy, mildly spiced, and elegantly simple. A lighter alternative to mustard fish.",
+    "ingredients": [
+      {
+        "name": "Rohu fish",
+        "amount": "500g, cut into pieces",
+        "orderLinks": {
+          "blinkit": "rohu fish",
+          "bigbasket": "rohu fish"
+        }
+      },
+      {
+        "name": "Plain yoghurt",
+        "amount": "1 cup, whisked smooth",
+        "orderLinks": {
+          "blinkit": "curd plain",
+          "bigbasket": "plain curd"
+        }
+      },
+      {
+        "name": "Onion",
+        "amount": "2 large, sliced",
+        "orderLinks": {
+          "blinkit": "onion",
+          "bigbasket": "onion"
+        }
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "3 tbsp",
+        "bangaloreSubstitute": "Available at Nature's Basket or Namdhari's",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "mustard oil"
+        }
+      },
+      {
+        "name": "Ginger paste",
+        "amount": "1 tsp",
+        "orderLinks": {
+          "blinkit": "ginger paste",
+          "bigbasket": "ginger paste"
+        }
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Green chillies",
+        "amount": "3",
+        "orderLinks": {
+          "blinkit": "green chilli",
+          "bigbasket": "green chilli"
+        }
+      }
+    ],
+    "steps": [
+      "Marinate fish with turmeric and salt. Fry lightly in mustard oil. Set aside.",
+      "Fry onions until golden in the same oil. Add ginger paste, cook 2 minutes.",
+      "Lower heat completely. Add whisked yoghurt gradually, stirring constantly to prevent curdling.",
+      "Add sugar, green chillies, ½ cup water. Bring to gentle simmer.",
+      "Add fried fish. Cook 8-10 minutes covered on low heat.",
+      "Serve with steamed rice."
+    ],
+    "prepTime": 10,
+    "prepNote": "Marinate fish with turmeric and salt 10 min ahead; it should look golden before hitting the pan."
+  },
+  {
+    "id": "dim-paurutu",
+    "name": "Dim Paurutu",
+    "bengali": "ডিম পাউরুটি",
+    "region": "Kolkata",
+    "cookTime": 10,
+    "tags": [
+      "egg",
+      "bread",
+      "quick",
+      "quick-breakfast",
+      "weekday-friendly"
+    ],
+    "category": "bread",
+    "mealType": [
+      "breakfast"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "Bengali French toast — bread dipped in spiced egg batter and pan-fried. The 10-minute weekday breakfast Bengalis grow up on.",
+    "ingredients": [
+      {
+        "name": "White bread slices",
+        "amount": "4",
+        "orderLinks": {
+          "blinkit": "white bread",
+          "bigbasket": "white bread"
+        }
+      },
+      {
+        "name": "Eggs",
+        "amount": "2",
+        "orderLinks": {
+          "blinkit": "eggs",
+          "bigbasket": "eggs"
+        }
+      },
+      {
+        "name": "Onion",
+        "amount": "¼, finely chopped",
+        "orderLinks": {
+          "blinkit": "onion",
+          "bigbasket": "onion"
+        }
+      },
+      {
+        "name": "Green chilli",
+        "amount": "1, chopped",
+        "orderLinks": {
+          "blinkit": "green chilli",
+          "bigbasket": "green chilli"
+        }
+      },
+      {
+        "name": "Salt + pepper",
+        "amount": "to taste"
+      },
+      {
+        "name": "Butter",
+        "amount": "2 tbsp",
+        "orderLinks": {
+          "blinkit": "butter",
+          "bigbasket": "amul butter"
+        }
+      }
+    ],
+    "steps": [
+      "Beat eggs with chopped onion, green chilli, salt, and pepper.",
+      "Dip each bread slice into the egg mixture, coating both sides.",
+      "Heat butter in a pan. Pan-fry bread for 2 minutes per side until golden.",
+      "Serve hot with ketchup or a dab of Kasundi."
+    ]
+  },
+  {
+    "id": "mishti-doi-toast",
+    "name": "Mishti Doi Toast",
+    "bengali": "মিষ্টি দই টোস্ট",
+    "region": "Kolkata",
+    "cookTime": 5,
+    "tags": [
+      "sweet",
+      "quick",
+      "breakfast",
+      "quick-breakfast",
+      "weekday-friendly"
+    ],
+    "category": "bread",
+    "mealType": [
+      "breakfast"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Toast topped with mishti doi, banana slices, and a drizzle of nolen gur — a 5-minute Bengali twist on breakfast toast.",
+    "ingredients": [
+      {
+        "name": "Multigrain bread",
+        "amount": "2 slices",
+        "orderLinks": {
+          "blinkit": "multigrain bread",
+          "bigbasket": "multigrain bread"
+        }
+      },
+      {
+        "name": "Mishti doi",
+        "amount": "4 tbsp",
+        "bangaloreSubstitute": "Sweetened Greek yoghurt with a pinch of jaggery",
+        "orderLinks": {
+          "blinkit": "mishti doi",
+          "bigbasket": "mishti doi"
+        }
+      },
+      {
+        "name": "Banana",
+        "amount": "1, sliced",
+        "orderLinks": {
+          "blinkit": "banana",
+          "bigbasket": "banana"
+        }
+      },
+      {
+        "name": "Nolen gur or jaggery syrup",
+        "amount": "1 tsp",
+        "bangaloreSubstitute": "Regular jaggery melted with a drop of water",
+        "orderLinks": {
+          "blinkit": "jaggery syrup",
+          "bigbasket": "nolen gur"
+        }
+      }
+    ],
+    "steps": [
+      "Toast the bread slices.",
+      "Spread mishti doi generously on each slice.",
+      "Top with banana slices.",
+      "Drizzle nolen gur and eat immediately."
+    ]
+  },
+  {
+    "id": "nolen-gur-overnight-oats",
+    "name": "Nolen Gur Overnight Oats",
+    "bengali": "নলেন গুড় ওটস",
+    "region": "Global",
+    "cookTime": 5,
+    "tags": [
+      "veg",
+      "overnight",
+      "quick-breakfast",
+      "weekday-friendly",
+      "healthy"
+    ],
+    "category": "fusion",
+    "mealType": [
+      "breakfast"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Prep-at-night, grab-in-the-morning overnight oats with nolen gur, banana, and almonds. The Bangalore Bengali's commute breakfast.",
+    "ingredients": [
+      {
+        "name": "Rolled oats",
+        "amount": "½ cup",
+        "orderLinks": {
+          "blinkit": "rolled oats",
+          "bigbasket": "rolled oats"
+        }
+      },
+      {
+        "name": "Milk or plant milk",
+        "amount": "¾ cup",
+        "orderLinks": {
+          "blinkit": "milk",
+          "bigbasket": "milk"
+        }
+      },
+      {
+        "name": "Nolen gur",
+        "amount": "1 tbsp",
+        "bangaloreSubstitute": "Any liquid jaggery or 1 tbsp honey",
+        "orderLinks": {
+          "blinkit": "nolen gur",
+          "bigbasket": "nolen gur liquid jaggery"
+        }
+      },
+      {
+        "name": "Banana",
+        "amount": "½, mashed",
+        "orderLinks": {
+          "blinkit": "banana",
+          "bigbasket": "banana"
+        }
+      },
+      {
+        "name": "Almonds, chopped",
+        "amount": "1 tbsp",
+        "orderLinks": {
+          "blinkit": "almonds",
+          "bigbasket": "almonds"
+        }
+      },
+      {
+        "name": "Cardamom powder",
+        "amount": "a pinch"
+      }
+    ],
+    "steps": [
+      "In a jar, combine oats, milk, nolen gur, mashed banana, and cardamom.",
+      "Stir well, seal, and refrigerate overnight (minimum 4 hours).",
+      "In the morning, top with chopped almonds and a little extra gur if desired.",
+      "Eat cold straight from the jar — grab and go."
+    ],
+    "prepTime": 240,
+    "prepNote": "Assemble jar and refrigerate at least 4 hours (or overnight) before eating."
+  },
+  {
+    "id": "jhuri-dim",
+    "name": "Jhuri Dim (Bengali Scrambled Eggs)",
+    "bengali": "ঝুরি ডিম",
+    "region": "Kolkata",
+    "cookTime": 10,
+    "tags": [
+      "egg",
+      "quick",
+      "breakfast",
+      "quick-breakfast",
+      "weekday-friendly"
+    ],
+    "category": "fusion",
+    "mealType": [
+      "breakfast",
+      "lunch"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "Bengali-style scrambled eggs with onions, green chilli, and a hint of turmeric — far more flavourful than the Western version.",
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "amount": "3",
+        "orderLinks": {
+          "blinkit": "eggs",
+          "bigbasket": "eggs"
+        }
+      },
+      {
+        "name": "Onion",
+        "amount": "1 small, finely chopped",
+        "orderLinks": {
+          "blinkit": "onion",
+          "bigbasket": "onion"
+        }
+      },
+      {
+        "name": "Green chillies",
+        "amount": "2, chopped",
+        "orderLinks": {
+          "blinkit": "green chilli",
+          "bigbasket": "green chilli"
+        }
+      },
+      {
+        "name": "Tomato",
+        "amount": "1 small, chopped",
+        "orderLinks": {
+          "blinkit": "tomato",
+          "bigbasket": "tomato"
+        }
+      },
+      {
+        "name": "Turmeric",
+        "amount": "¼ tsp",
+        "orderLinks": {
+          "blinkit": "turmeric powder",
+          "bigbasket": "turmeric powder"
+        }
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "1 tbsp",
+        "bangaloreSubstitute": "Any cooking oil works, but mustard oil gives authentic flavour",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "mustard oil"
+        }
+      }
+    ],
+    "steps": [
+      "Heat mustard oil. Fry onion and green chilli 2 minutes.",
+      "Add tomato, turmeric, salt. Cook 2 minutes.",
+      "Pour in beaten eggs. Scramble gently on low-medium heat for 3 minutes until set but moist.",
+      "Serve with toast or hot rotis."
+    ]
+  },
+  {
+    "id": "quick-chirer-polao",
+    "name": "Chirer Polao",
+    "bengali": "চিঁড়ের পোলাও",
+    "region": "Kolkata",
+    "cookTime": 15,
+    "tags": [
+      "veg",
+      "rice",
+      "breakfast",
+      "quick-breakfast",
+      "weekday-friendly"
+    ],
+    "category": "rice",
+    "mealType": [
+      "breakfast"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Flattened rice tossed with peanuts, coconut, and a hint of sugar — Bengali breakfast rice in 15 minutes.",
+    "ingredients": [
+      {
+        "name": "Thick poha (chira)",
+        "amount": "1.5 cups",
+        "orderLinks": {
+          "blinkit": "poha thick",
+          "bigbasket": "poha thick chira"
+        }
+      },
+      {
+        "name": "Peanuts",
+        "amount": "¼ cup",
+        "orderLinks": {
+          "blinkit": "peanuts",
+          "bigbasket": "peanuts raw"
+        }
+      },
+      {
+        "name": "Fresh coconut",
+        "amount": "3 tbsp, grated or chopped",
+        "orderLinks": {
+          "blinkit": "fresh coconut",
+          "bigbasket": "coconut"
+        }
+      },
+      {
+        "name": "Green chillies",
+        "amount": "2, slit",
+        "orderLinks": {
+          "blinkit": "green chilli",
+          "bigbasket": "green chilli"
+        }
+      },
+      {
+        "name": "Bay leaf",
+        "amount": "1",
+        "orderLinks": {
+          "blinkit": "bay leaf",
+          "bigbasket": "tej patta"
+        }
+      },
+      {
+        "name": "Ghee",
+        "amount": "2 tbsp",
+        "orderLinks": {
+          "blinkit": "ghee",
+          "bigbasket": "desi ghee"
+        }
+      },
+      {
+        "name": "Sugar + salt",
+        "amount": "½ tsp each"
+      }
+    ],
+    "steps": [
+      "Rinse poha briefly in a sieve, drain. Should remain firm, not mushy.",
+      "Heat ghee. Fry peanuts golden, remove. Fry coconut pieces briefly.",
+      "Add bay leaf, green chillies to the same ghee.",
+      "Add poha, sugar, salt. Toss gently 3-4 minutes on low heat.",
+      "Fold in peanuts and coconut. Serve warm."
+    ]
+  },
+  {
+    "id": "dudh-muri",
+    "name": "Dudh Muri",
+    "bengali": "দুধ মুড়ি",
+    "region": "Kolkata",
+    "cookTime": 5,
+    "tags": [
+      "veg",
+      "puffed-rice",
+      "quick",
+      "breakfast",
+      "quick-breakfast",
+      "weekday-friendly"
+    ],
+    "category": "snack",
+    "mealType": [
+      "breakfast"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Puffed rice in warm sweetened milk with banana slices — the ultimate no-cook Bengali breakfast, 5 minutes flat.",
+    "ingredients": [
+      {
+        "name": "Puffed rice (muri)",
+        "amount": "1 cup",
+        "orderLinks": {
+          "blinkit": "muri puffed rice",
+          "bigbasket": "muri"
+        }
+      },
+      {
+        "name": "Warm milk",
+        "amount": "1.5 cups",
+        "orderLinks": {
+          "blinkit": "milk",
+          "bigbasket": "milk"
+        }
+      },
+      {
+        "name": "Banana",
+        "amount": "1, sliced",
+        "orderLinks": {
+          "blinkit": "banana",
+          "bigbasket": "banana"
+        }
+      },
+      {
+        "name": "Jaggery or sugar",
+        "amount": "2 tsp",
+        "orderLinks": {
+          "blinkit": "jaggery",
+          "bigbasket": "jaggery"
+        }
+      }
+    ],
+    "steps": [
+      "Warm milk and stir in jaggery until dissolved.",
+      "Place muri in a bowl, add banana slices.",
+      "Pour hot sweet milk over. Let soak 30 seconds.",
+      "Eat immediately — muri should be soft but not mushy."
+    ]
+  },
+  {
+    "id": "muri-chanachur",
+    "name": "Muri Chanachur",
+    "bengali": "মুড়ি চানাচুর",
+    "region": "Kolkata",
+    "cookTime": 5,
+    "tags": [
+      "veg",
+      "snack",
+      "quick",
+      "breakfast",
+      "quick-breakfast",
+      "weekday-friendly"
+    ],
+    "category": "snack",
+    "mealType": [
+      "breakfast",
+      "lunch"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Puffed rice tossed with spicy chanachur, onion, mustard oil — the Bengali equivalent of granola, ready in 5 minutes.",
+    "ingredients": [
+      {
+        "name": "Puffed rice (muri)",
+        "amount": "2 cups",
+        "orderLinks": {
+          "blinkit": "muri puffed rice",
+          "bigbasket": "muri"
+        }
+      },
+      {
+        "name": "Chanachur (Bengali mixture)",
+        "amount": "½ cup",
+        "bangaloreSubstitute": "Haldiram or Gopal chanachur/bhujia widely available",
+        "orderLinks": {
+          "blinkit": "chanachur haldiram",
+          "bigbasket": "chanachur namkeen"
+        }
+      },
+      {
+        "name": "Onion",
+        "amount": "¼, finely chopped",
+        "orderLinks": {
+          "blinkit": "onion",
+          "bigbasket": "onion"
+        }
+      },
+      {
+        "name": "Green chilli",
+        "amount": "1, chopped",
+        "orderLinks": {
+          "blinkit": "green chilli",
+          "bigbasket": "green chilli"
+        }
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "1 tsp",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "mustard oil"
+        }
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "½ tsp",
+        "orderLinks": {
+          "blinkit": "lemon",
+          "bigbasket": "lemon"
+        }
+      }
+    ],
+    "steps": [
+      "In a bowl, combine muri and chanachur.",
+      "Add chopped onion and green chilli.",
+      "Drizzle mustard oil and lemon juice. Toss well.",
+      "Eat immediately — muri goes soft if left."
+    ]
+  },
+  {
+    "id": "paratha-dim-roll",
+    "name": "Paratha Dim Roll",
+    "bengali": "পরোটা ডিম রোল",
+    "region": "Kolkata",
+    "cookTime": 10,
+    "tags": [
+      "egg",
+      "bread",
+      "quick",
+      "breakfast",
+      "quick-breakfast",
+      "weekday-friendly"
+    ],
+    "category": "bread",
+    "mealType": [
+      "breakfast",
+      "lunch"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "Frozen paratha + omelette + sliced onion + chilli sauce = 10-minute weekday breakfast roll. Grab and eat on the way out.",
+    "ingredients": [
+      {
+        "name": "Frozen paratha",
+        "amount": "1",
+        "bangaloreSubstitute": "ID Fresh, Kawan, or Haldiram frozen parathas all work",
+        "orderLinks": {
+          "blinkit": "frozen paratha",
+          "bigbasket": "frozen paratha"
+        }
+      },
+      {
+        "name": "Egg",
+        "amount": "1",
+        "orderLinks": {
+          "blinkit": "eggs",
+          "bigbasket": "eggs"
+        }
+      },
+      {
+        "name": "Onion",
+        "amount": "¼, sliced",
+        "orderLinks": {
+          "blinkit": "onion",
+          "bigbasket": "onion"
+        }
+      },
+      {
+        "name": "Green chilli",
+        "amount": "1, chopped",
+        "orderLinks": {
+          "blinkit": "green chilli",
+          "bigbasket": "green chilli"
+        }
+      },
+      {
+        "name": "Chilli sauce or ketchup",
+        "amount": "1 tbsp",
+        "orderLinks": {
+          "blinkit": "chilli sauce",
+          "bigbasket": "chilli sauce"
+        }
+      },
+      {
+        "name": "Salt + pepper",
+        "amount": "pinch"
+      }
+    ],
+    "steps": [
+      "Cook paratha as per pack until golden.",
+      "Beat egg with salt, pepper, chopped chilli. Pour into pan.",
+      "Place paratha on top, press gently. Flip after 30 sec.",
+      "Add sliced onion and sauce. Roll up tight.",
+      "Wrap bottom in foil. Eat immediately."
+    ]
+  },
+  {
+    "id": "bengali-poha",
+    "name": "Bengali-Style Poha",
+    "bengali": "বাঙালি পোহা",
+    "region": "Kolkata",
+    "cookTime": 12,
+    "tags": [
+      "veg",
+      "rice",
+      "quick",
+      "breakfast",
+      "quick-breakfast",
+      "weekday-friendly"
+    ],
+    "category": "rice",
+    "mealType": [
+      "breakfast"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Poha with a Bengali twist — panch phoron tempering, mustard oil, and green peas. Fragrant, quick, and filling.",
+    "ingredients": [
+      {
+        "name": "Thick poha",
+        "amount": "1.5 cups",
+        "orderLinks": {
+          "blinkit": "poha thick",
+          "bigbasket": "poha thick"
+        }
+      },
+      {
+        "name": "Onion",
+        "amount": "1, chopped",
+        "orderLinks": {
+          "blinkit": "onion",
+          "bigbasket": "onion"
+        }
+      },
+      {
+        "name": "Panch phoron",
+        "amount": "½ tsp",
+        "bangaloreSubstitute": "Mix cumin + fennel + nigella + fenugreek + mustard seeds",
+        "orderLinks": {
+          "blinkit": "panch phoron",
+          "bigbasket": "panch phoron"
+        }
+      },
+      {
+        "name": "Green peas",
+        "amount": "⅓ cup",
+        "orderLinks": {
+          "blinkit": "green peas frozen",
+          "bigbasket": "green peas frozen"
+        }
+      },
+      {
+        "name": "Turmeric",
+        "amount": "¼ tsp"
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "2 tbsp",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "mustard oil"
+        }
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "1 tsp"
+      }
+    ],
+    "steps": [
+      "Rinse poha gently and drain.",
+      "Heat mustard oil. Add panch phoron; when it crackles, add onion.",
+      "When onion softens, add peas and turmeric. Cook 2 minutes.",
+      "Add poha, salt, sugar. Toss 3 minutes on low.",
+      "Finish with lemon juice. Serve warm."
+    ]
+  },
+  {
+    "id": "banana-posto-shake",
+    "name": "Banana Posto Shake",
+    "bengali": "কলা পোস্ত শেক",
+    "region": "Global",
+    "cookTime": 5,
+    "tags": [
+      "veg",
+      "drink",
+      "quick",
+      "breakfast",
+      "quick-breakfast",
+      "weekday-friendly",
+      "healthy"
+    ],
+    "category": "fusion",
+    "mealType": [
+      "breakfast"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Banana smoothie with a Bengali twist — ground poppy seeds for a nutty, creamy texture. Protein and energy to fuel a Bangalore workday.",
+    "ingredients": [
+      {
+        "name": "Banana",
+        "amount": "1 large, frozen preferred",
+        "orderLinks": {
+          "blinkit": "banana",
+          "bigbasket": "banana"
+        }
+      },
+      {
+        "name": "Milk",
+        "amount": "1 cup",
+        "orderLinks": {
+          "blinkit": "milk",
+          "bigbasket": "milk"
+        }
+      },
+      {
+        "name": "Poppy seed powder (posto)",
+        "amount": "1 tbsp, toasted",
+        "bangaloreSubstitute": "Toast poppy seeds lightly, then grind; or use 1 tbsp almond butter",
+        "orderLinks": {
+          "blinkit": "poppy seeds",
+          "bigbasket": "khus khus poppy seeds"
+        }
+      },
+      {
+        "name": "Honey",
+        "amount": "1 tsp",
+        "orderLinks": {
+          "blinkit": "honey",
+          "bigbasket": "honey"
+        }
+      },
+      {
+        "name": "Cardamom powder",
+        "amount": "a pinch"
+      }
+    ],
+    "steps": [
+      "Blend banana, milk, posto, honey, and cardamom until smooth.",
+      "Taste — adjust sweetness if needed.",
+      "Pour into a glass. Drink immediately or pour into a flask."
+    ]
+  },
+  {
+    "id": "musoor-dal",
+    "name": "Musoor Dal",
+    "bengali": "মুসুর ডাল",
+    "region": "Kolkata",
+    "cookTime": 25,
+    "tags": [
+      "veg",
+      "dal",
+      "comfort",
+      "weekday-friendly"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Bengali red lentil dal — thin, lemony, with a mustard-nigella tempering. The everyday dal that Bengalis eat more days than not.",
+    "ingredients": [
+      {
+        "name": "Masoor dal (red lentils)",
+        "amount": "½ cup",
+        "orderLinks": {
+          "blinkit": "masoor dal",
+          "bigbasket": "masoor dal"
+        }
+      },
+      {
+        "name": "Tomato",
+        "amount": "1, chopped",
+        "orderLinks": {
+          "blinkit": "tomato",
+          "bigbasket": "tomato"
+        }
+      },
+      {
+        "name": "Turmeric",
+        "amount": "½ tsp"
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "1 tbsp",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "mustard oil"
+        }
+      },
+      {
+        "name": "Kalonji (nigella)",
+        "amount": "½ tsp",
+        "orderLinks": {
+          "blinkit": "kalonji",
+          "bigbasket": "kalonji"
+        }
+      },
+      {
+        "name": "Dried red chilli",
+        "amount": "2",
+        "orderLinks": {
+          "blinkit": "dry red chilli",
+          "bigbasket": "dry red chilli"
+        }
+      },
+      {
+        "name": "Green chilli",
+        "amount": "2, slit"
+      },
+      {
+        "name": "Lemon",
+        "amount": "wedge, to serve"
+      }
+    ],
+    "steps": [
+      "Pressure cook dal with turmeric, salt, tomato, and 2 cups water for 3 whistles.",
+      "Heat mustard oil in a pan. Add kalonji, dried red chillies, slit green chillies.",
+      "Pour hot tempering into the cooked dal.",
+      "Simmer 2 minutes. Serve with rice and a wedge of lemon."
+    ]
+  },
+  {
+    "id": "mug-dal",
+    "name": "Bhaja Mug Dal",
+    "bengali": "ভাজা মুগ ডাল",
+    "region": "Kolkata",
+    "cookTime": 25,
+    "tags": [
+      "veg",
+      "dal",
+      "roasted",
+      "weekday-friendly"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Dry-roasted moong dal cooked to a nutty, fragrant gravy with ginger, cumin, and a ghee tempering. The superior Bengali dal.",
+    "ingredients": [
+      {
+        "name": "Yellow moong dal",
+        "amount": "½ cup",
+        "orderLinks": {
+          "blinkit": "yellow moong dal",
+          "bigbasket": "moong dal"
+        }
+      },
+      {
+        "name": "Ginger",
+        "amount": "1 inch, grated",
+        "orderLinks": {
+          "blinkit": "ginger",
+          "bigbasket": "ginger"
+        }
+      },
+      {
+        "name": "Cumin seeds",
+        "amount": "½ tsp",
+        "orderLinks": {
+          "blinkit": "cumin seeds",
+          "bigbasket": "jeera"
+        }
+      },
+      {
+        "name": "Bay leaf",
+        "amount": "1"
+      },
+      {
+        "name": "Dried red chilli",
+        "amount": "2"
+      },
+      {
+        "name": "Ghee",
+        "amount": "1 tbsp",
+        "orderLinks": {
+          "blinkit": "ghee",
+          "bigbasket": "ghee"
+        }
+      },
+      {
+        "name": "Turmeric",
+        "amount": "½ tsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tsp"
+      }
+    ],
+    "steps": [
+      "Dry roast moong dal in a pan on low until golden and fragrant, 3-4 minutes.",
+      "Pressure cook with turmeric, ginger, salt and 2.5 cups water for 3 whistles.",
+      "Heat ghee. Add bay leaf, cumin, red chilli.",
+      "Pour into dal. Add sugar. Simmer 3 minutes.",
+      "Serve with rice and a drizzle of raw mustard oil."
+    ]
+  },
+  {
+    "id": "cholar-dal",
+    "name": "Cholar Dal",
+    "bengali": "ছোলার ডাল",
+    "region": "Kolkata",
+    "cookTime": 30,
+    "tags": [
+      "veg",
+      "dal",
+      "coconut",
+      "weekday-friendly",
+      "festive"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Chana dal in sweet-spiced Bengali style with coconut chunks and raisins. The classic puja-bhog dal, ready in 30 minutes.",
+    "ingredients": [
+      {
+        "name": "Chana dal",
+        "amount": "½ cup",
+        "orderLinks": {
+          "blinkit": "chana dal",
+          "bigbasket": "chana dal"
+        }
+      },
+      {
+        "name": "Fresh coconut",
+        "amount": "3 tbsp, cubed",
+        "orderLinks": {
+          "blinkit": "coconut",
+          "bigbasket": "coconut"
+        }
+      },
+      {
+        "name": "Raisins",
+        "amount": "1 tbsp",
+        "orderLinks": {
+          "blinkit": "raisins kishmish",
+          "bigbasket": "raisins"
+        }
+      },
+      {
+        "name": "Ghee",
+        "amount": "1 tbsp",
+        "orderLinks": {
+          "blinkit": "ghee",
+          "bigbasket": "ghee"
+        }
+      },
+      {
+        "name": "Cumin seeds + bay leaf",
+        "amount": "½ tsp + 1"
+      },
+      {
+        "name": "Green cardamom + cinnamon",
+        "amount": "2 pods + 1 stick"
+      },
+      {
+        "name": "Ginger paste",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Sugar + turmeric + salt",
+        "amount": "1 tsp + ½ tsp + to taste"
+      }
+    ],
+    "steps": [
+      "Pressure cook chana dal with turmeric, salt for 4 whistles.",
+      "Fry coconut cubes in ghee until golden. Remove.",
+      "Temper with cumin, bay leaf, cardamom, cinnamon.",
+      "Add ginger paste, cook 1 min. Pour in cooked dal.",
+      "Add coconut, raisins, sugar. Simmer 5 min.",
+      "Serve with luchi or rice."
+    ]
+  },
+  {
+    "id": "tok-dal",
+    "name": "Tok Dal",
+    "bengali": "টক ডাল",
+    "region": "Kolkata",
+    "cookTime": 25,
+    "tags": [
+      "veg",
+      "dal",
+      "sour",
+      "summer",
+      "weekday-friendly"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "A light sour dal made with raw mango or tomato — Bengali comfort on a hot Bangalore day. Cooling, tangy, digestive.",
+    "ingredients": [
+      {
+        "name": "Masoor dal",
+        "amount": "½ cup",
+        "orderLinks": {
+          "blinkit": "masoor dal",
+          "bigbasket": "masoor dal"
+        }
+      },
+      {
+        "name": "Raw mango",
+        "amount": "½, chopped",
+        "bangaloreSubstitute": "Seasonal — use 1 chopped tomato + 1 tbsp amchur when raw mango unavailable",
+        "orderLinks": {
+          "blinkit": "raw mango kacha aam",
+          "bigbasket": "raw mango"
+        }
+      },
+      {
+        "name": "Mustard seeds",
+        "amount": "½ tsp"
+      },
+      {
+        "name": "Dried red chilli",
+        "amount": "2"
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Turmeric + salt + sugar",
+        "amount": "½ tsp + to taste + 1 tsp"
+      }
+    ],
+    "steps": [
+      "Pressure cook dal with turmeric, salt, raw mango for 3 whistles.",
+      "Heat mustard oil. Add mustard seeds and dried red chilli.",
+      "Pour tempering into dal. Add sugar.",
+      "Simmer 3 minutes. Should be soup-thin and tangy.",
+      "Serve with rice; great on a hot day."
+    ]
+  },
+  {
+    "id": "labra",
+    "name": "Labra",
+    "bengali": "লাবড়া",
+    "region": "Kolkata",
+    "cookTime": 30,
+    "tags": [
+      "veg",
+      "mixed-veg",
+      "panch-phoron",
+      "weekday-friendly"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Mixed vegetable stew tempered with panch phoron — five-spice Bengali vegetable medley. Hearty, healthy, forgiving.",
+    "ingredients": [
+      {
+        "name": "Pumpkin",
+        "amount": "1 cup, cubed",
+        "orderLinks": {
+          "blinkit": "pumpkin",
+          "bigbasket": "pumpkin"
+        }
+      },
+      {
+        "name": "Potato + sweet potato",
+        "amount": "1 each, cubed",
+        "orderLinks": {
+          "blinkit": "potato",
+          "bigbasket": "sweet potato"
+        }
+      },
+      {
+        "name": "Eggplant",
+        "amount": "1 small, cubed",
+        "orderLinks": {
+          "blinkit": "eggplant brinjal",
+          "bigbasket": "brinjal"
+        }
+      },
+      {
+        "name": "Panch phoron + bay leaf + dried chilli",
+        "amount": "1 tsp + 1 + 2"
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "2 tbsp",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "mustard oil"
+        }
+      },
+      {
+        "name": "Turmeric + salt + sugar",
+        "amount": "½ tsp + to taste + 1 tsp"
+      },
+      {
+        "name": "Ginger paste",
+        "amount": "1 tsp"
+      }
+    ],
+    "steps": [
+      "Heat mustard oil. Temper with panch phoron, bay leaf, dried chilli.",
+      "Add ginger paste. Then add all vegetables.",
+      "Add turmeric, salt, sugar. Mix well.",
+      "Cover and cook on low 20 minutes, stirring occasionally, until vegetables collapse into each other.",
+      "Serve with rice or roti."
+    ]
+  },
+  {
+    "id": "aloo-bhaja",
+    "name": "Aloo Bhaja",
+    "bengali": "আলু ভাজা",
+    "region": "Kolkata",
+    "cookTime": 15,
+    "tags": [
+      "veg",
+      "potato",
+      "fried",
+      "side",
+      "weekday-friendly"
+    ],
+    "category": "snack",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Crispy matchstick-thin fried potatoes with turmeric and salt — the Bengali side that accompanies dal-bhat. Addictive and fast.",
+    "ingredients": [
+      {
+        "name": "Potatoes",
+        "amount": "3, julienned",
+        "orderLinks": {
+          "blinkit": "potato",
+          "bigbasket": "potato"
+        }
+      },
+      {
+        "name": "Turmeric",
+        "amount": "½ tsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "to taste"
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "3 tbsp",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "mustard oil"
+        }
+      },
+      {
+        "name": "Green chilli",
+        "amount": "1, slit"
+      }
+    ],
+    "steps": [
+      "Soak julienned potatoes in water 5 min, drain thoroughly, pat dry.",
+      "Toss with turmeric and salt.",
+      "Heat mustard oil; add green chilli.",
+      "Add potatoes. Fry on medium-high, tossing frequently, 8-10 min until crisp.",
+      "Drain on paper. Serve with dal-rice."
+    ]
+  },
+  {
+    "id": "begun-bhaja",
+    "name": "Begun Bhaja",
+    "bengali": "বেগুন ভাজা",
+    "region": "Kolkata",
+    "cookTime": 15,
+    "tags": [
+      "veg",
+      "eggplant",
+      "fried",
+      "side",
+      "weekday-friendly"
+    ],
+    "category": "snack",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Thick eggplant slices pan-fried with turmeric in mustard oil. The side dish that elevates any Bengali meal.",
+    "ingredients": [
+      {
+        "name": "Large eggplant",
+        "amount": "1, sliced ½-inch thick rounds",
+        "orderLinks": {
+          "blinkit": "eggplant brinjal big",
+          "bigbasket": "brinjal big"
+        }
+      },
+      {
+        "name": "Turmeric + salt",
+        "amount": "1 tsp + to taste"
+      },
+      {
+        "name": "Red chilli powder",
+        "amount": "½ tsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "¼ tsp"
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "4 tbsp",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "mustard oil"
+        }
+      }
+    ],
+    "steps": [
+      "Rub eggplant slices with turmeric, chilli, sugar, and salt. Rest 5 min.",
+      "Heat mustard oil in a pan.",
+      "Place eggplant slices in single layer. Fry 3 min each side on medium.",
+      "Slices should be deeply golden with crisp edges.",
+      "Serve with dal-rice."
+    ]
+  },
+  {
+    "id": "quick-alur-dom",
+    "name": "Alur Dom",
+    "bengali": "আলুর দম",
+    "region": "Kolkata",
+    "cookTime": 25,
+    "tags": [
+      "veg",
+      "potato",
+      "curry",
+      "weekday-friendly"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Baby potatoes in a lightly spiced tomato-ginger gravy — Bengali alu-dum in 25 minutes. Great with luchi or puri.",
+    "ingredients": [
+      {
+        "name": "Baby potatoes",
+        "amount": "500g, par-boiled and peeled",
+        "orderLinks": {
+          "blinkit": "baby potato",
+          "bigbasket": "baby potato"
+        }
+      },
+      {
+        "name": "Tomato",
+        "amount": "2, pureed"
+      },
+      {
+        "name": "Ginger paste",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Cumin + coriander powder",
+        "amount": "1 tsp each"
+      },
+      {
+        "name": "Turmeric + red chilli + garam masala",
+        "amount": "½ + ½ + ½ tsp"
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Cumin seeds + bay leaf",
+        "amount": "½ tsp + 1"
+      }
+    ],
+    "steps": [
+      "Lightly fry potatoes in mustard oil until golden. Remove.",
+      "In same oil, temper with cumin seeds and bay leaf. Add ginger paste.",
+      "Add tomato puree + all powders. Cook 4 min until oil separates.",
+      "Add potatoes and ½ cup water. Simmer 10 min.",
+      "Finish with garam masala. Serve hot."
+    ]
+  },
+  {
+    "id": "pepe-chingri",
+    "name": "Pepe Chingri",
+    "bengali": "পেঁপে চিংড়ি",
+    "region": "Kolkata",
+    "cookTime": 25,
+    "tags": [
+      "prawn",
+      "papaya",
+      "light",
+      "weekday-friendly"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "Raw papaya and small prawns in a light Bengali gravy — surprising combination, beautifully balanced.",
+    "ingredients": [
+      {
+        "name": "Small prawns",
+        "amount": "200g, cleaned",
+        "orderLinks": {
+          "blinkit": "prawns small",
+          "bigbasket": "prawns"
+        }
+      },
+      {
+        "name": "Raw green papaya",
+        "amount": "1 cup, cubed",
+        "orderLinks": {
+          "blinkit": "raw papaya",
+          "bigbasket": "raw papaya"
+        }
+      },
+      {
+        "name": "Onion paste",
+        "amount": "1 medium",
+        "orderLinks": {
+          "blinkit": "onion",
+          "bigbasket": "onion"
+        }
+      },
+      {
+        "name": "Ginger paste + turmeric + chilli",
+        "amount": "1 tsp + ½ + ½ tsp"
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Panch phoron",
+        "amount": "½ tsp"
+      }
+    ],
+    "steps": [
+      "Marinate prawns with turmeric, salt. Lightly fry in mustard oil. Remove.",
+      "Temper oil with panch phoron. Add onion paste, cook 5 min.",
+      "Add ginger paste, turmeric, chilli. Cook 2 min.",
+      "Add papaya, ½ cup water, salt. Cover, cook 10 min.",
+      "Add prawns back. Cook 5 more min. Serve with rice."
+    ],
+    "prepTime": 10,
+    "prepNote": "Marinate prawns with turmeric and salt 10 min before cooking."
+  },
+  {
+    "id": "dim-er-jhol",
+    "name": "Dim-er Jhol",
+    "bengali": "ডিমের ঝোল",
+    "region": "Kolkata",
+    "cookTime": 25,
+    "tags": [
+      "egg",
+      "potato",
+      "quick",
+      "weekday-friendly"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "Bengali egg curry with potato cubes in a spiced tomato gravy. Student food, bachelor food, emergency-dinner food. Never fails.",
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "amount": "4, hard-boiled",
+        "orderLinks": {
+          "blinkit": "eggs",
+          "bigbasket": "eggs"
+        }
+      },
+      {
+        "name": "Potato",
+        "amount": "2, cubed",
+        "orderLinks": {
+          "blinkit": "potato",
+          "bigbasket": "potato"
+        }
+      },
+      {
+        "name": "Onion",
+        "amount": "1, sliced"
+      },
+      {
+        "name": "Tomato",
+        "amount": "1, chopped"
+      },
+      {
+        "name": "Ginger-garlic paste",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Turmeric + chilli + cumin powder",
+        "amount": "½ + ½ + ½ tsp"
+      },
+      {
+        "name": "Mustard oil + bay leaf",
+        "amount": "2 tbsp + 1"
+      }
+    ],
+    "steps": [
+      "Prick boiled eggs, rub with turmeric + salt. Lightly fry in mustard oil until golden spots. Remove.",
+      "In same oil, temper with bay leaf. Fry onion golden.",
+      "Add ginger-garlic paste, tomato, all spices. Cook 4 min.",
+      "Add potato + 2 cups water + salt. Cover, cook 12 min until potato tender.",
+      "Add eggs back. Simmer 3 min. Serve with rice."
+    ]
+  },
+  {
+    "id": "kumro-chokka",
+    "name": "Kumro Chokka",
+    "bengali": "কুমড়ো ছক্কা",
+    "region": "Kolkata",
+    "cookTime": 30,
+    "tags": [
+      "veg",
+      "pumpkin",
+      "chickpea",
+      "weekday-friendly"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Pumpkin chunks with chickpeas in a warm Bengali masala — sweet-spicy, hearty, perfect weekday veg.",
+    "ingredients": [
+      {
+        "name": "Pumpkin",
+        "amount": "500g, cubed",
+        "orderLinks": {
+          "blinkit": "pumpkin kaddu",
+          "bigbasket": "pumpkin"
+        }
+      },
+      {
+        "name": "Boiled chickpeas",
+        "amount": "½ cup",
+        "orderLinks": {
+          "blinkit": "chickpeas kabuli chana",
+          "bigbasket": "kabuli chana"
+        }
+      },
+      {
+        "name": "Panch phoron + bay leaf + dried chilli",
+        "amount": "1 tsp + 1 + 2"
+      },
+      {
+        "name": "Ginger paste",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Turmeric + chilli powder",
+        "amount": "½ + ½ tsp"
+      },
+      {
+        "name": "Mustard oil + sugar + salt",
+        "amount": "2 tbsp + 1 tsp + to taste"
+      }
+    ],
+    "steps": [
+      "Heat mustard oil. Temper with panch phoron, bay leaf, dried chilli.",
+      "Add ginger paste, then pumpkin. Toss 3 min.",
+      "Add chickpeas, turmeric, chilli, salt, sugar.",
+      "Add ½ cup water. Cover, cook 15-18 min until pumpkin is soft and starts to break down.",
+      "Serve with roti or rice."
+    ]
+  },
+  {
+    "id": "quick-shukto",
+    "name": "Quick Shukto",
+    "bengali": "শুক্তো",
+    "region": "Kolkata",
+    "cookTime": 30,
+    "tags": [
+      "veg",
+      "bitter",
+      "mixed-veg",
+      "weekday-friendly"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch"
+    ],
+    "isVeg": true,
+    "difficulty": "medium",
+    "description": "A simplified version of Bengal's bittersweet mixed-veg classic — bitter gourd, eggplant, potato in a milk-paanch-phoron gravy. Eaten first in a Bengali meal as a digestive opener.",
+    "ingredients": [
+      {
+        "name": "Bitter gourd (korola)",
+        "amount": "1, sliced",
+        "orderLinks": {
+          "blinkit": "karela bitter gourd",
+          "bigbasket": "bitter gourd"
+        }
+      },
+      {
+        "name": "Eggplant + potato + drumstick",
+        "amount": "1 each, cubed",
+        "orderLinks": {
+          "blinkit": "drumstick",
+          "bigbasket": "drumstick"
+        }
+      },
+      {
+        "name": "Milk",
+        "amount": "½ cup"
+      },
+      {
+        "name": "Ghee + mustard oil",
+        "amount": "1 tbsp each"
+      },
+      {
+        "name": "Radhuni or celery seed",
+        "amount": "¼ tsp",
+        "bangaloreSubstitute": "Use celery seed if radhuni unavailable"
+      },
+      {
+        "name": "Ginger paste + sugar + salt",
+        "amount": "1 tsp + 1 tsp + to taste"
+      },
+      {
+        "name": "Panch phoron powder",
+        "amount": "1 tsp"
+      }
+    ],
+    "steps": [
+      "Lightly fry each vegetable separately in mustard oil. Remove.",
+      "Temper ghee with radhuni. Add ginger paste.",
+      "Add all fried veggies, panch phoron powder, salt, sugar, and 1 cup water.",
+      "Simmer 10 min until softened.",
+      "Pour milk in at the end, simmer 2 min (don't boil). Serve first in a meal with hot rice."
+    ]
+  },
+  {
+    "id": "chorchori",
+    "name": "Chorchori",
+    "bengali": "চড়চড়ি",
+    "region": "Kolkata",
+    "cookTime": 25,
+    "tags": [
+      "veg",
+      "mixed-veg",
+      "weekday-friendly"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "A dry mixed vegetable stir-fry with leafy greens and gourds — whatever is in the fridge, Bengali-spiced. The original zero-waste cooking.",
+    "ingredients": [
+      {
+        "name": "Mixed vegetables (potato, pumpkin, beans, spinach)",
+        "amount": "3 cups, chopped small",
+        "orderLinks": {
+          "blinkit": "spinach palak",
+          "bigbasket": "mixed vegetables"
+        }
+      },
+      {
+        "name": "Panch phoron",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Dried red chillies",
+        "amount": "2"
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Turmeric + salt",
+        "amount": "½ tsp + to taste"
+      },
+      {
+        "name": "Green chillies",
+        "amount": "2, slit"
+      }
+    ],
+    "steps": [
+      "Heat mustard oil. Temper with panch phoron and dried chilli.",
+      "Add hard vegetables first (potato, pumpkin). Cook 5 min.",
+      "Add softer vegetables, turmeric, salt, green chilli.",
+      "Cover, cook 10 min on low until everything is soft.",
+      "Uncover, cook 3 min to dry up. Serve with rice."
+    ]
+  },
+  {
+    "id": "posto-bora",
+    "name": "Posto Bora",
+    "bengali": "পোস্ত বড়া",
+    "region": "Kolkata",
+    "cookTime": 20,
+    "tags": [
+      "veg",
+      "poppy",
+      "fritter",
+      "side",
+      "weekday-friendly"
+    ],
+    "category": "snack",
+    "mealType": [
+      "lunch"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Poppy seed fritters — crispy outside, creamy inside, smoky-nutty flavour. Eat with dal-rice or as a snack.",
+    "ingredients": [
+      {
+        "name": "Poppy seeds",
+        "amount": "½ cup, soaked 30 min and ground",
+        "orderLinks": {
+          "blinkit": "poppy seeds khus khus",
+          "bigbasket": "poppy seeds"
+        }
+      },
+      {
+        "name": "Onion",
+        "amount": "1 small, finely chopped"
+      },
+      {
+        "name": "Green chilli",
+        "amount": "2, chopped"
+      },
+      {
+        "name": "Rice flour",
+        "amount": "1 tbsp",
+        "orderLinks": {
+          "blinkit": "rice flour",
+          "bigbasket": "rice flour"
+        }
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "for shallow frying"
+      },
+      {
+        "name": "Salt",
+        "amount": "to taste"
+      }
+    ],
+    "steps": [
+      "Mix poppy paste, onion, green chilli, rice flour, and salt into a thick batter.",
+      "Heat mustard oil in a pan.",
+      "Drop spoonfuls of batter. Flatten lightly.",
+      "Shallow fry 2 min per side until golden and crisp.",
+      "Serve hot with rice and dal."
+    ]
+  },
+  {
+    "id": "quick-aloo-phulkopi",
+    "name": "Aloo Phulkopi",
+    "bengali": "আলু ফুলকপি",
+    "region": "Kolkata",
+    "cookTime": 25,
+    "tags": [
+      "veg",
+      "cauliflower",
+      "potato",
+      "winter",
+      "weekday-friendly"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Cauliflower and potato in a light ginger-cumin gravy. Classic winter Bengali veg, but works year-round in Bangalore.",
+    "ingredients": [
+      {
+        "name": "Cauliflower",
+        "amount": "1 small, in florets",
+        "orderLinks": {
+          "blinkit": "cauliflower",
+          "bigbasket": "cauliflower"
+        }
+      },
+      {
+        "name": "Potato",
+        "amount": "2, cubed"
+      },
+      {
+        "name": "Tomato",
+        "amount": "1, chopped"
+      },
+      {
+        "name": "Ginger paste + cumin powder + turmeric + chilli",
+        "amount": "1 tsp + 1 tsp + ½ + ½ tsp"
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Cumin seeds + bay leaf",
+        "amount": "½ tsp + 1"
+      }
+    ],
+    "steps": [
+      "Lightly fry cauliflower and potato in mustard oil. Remove.",
+      "Temper oil with cumin seeds, bay leaf. Add tomato + ginger.",
+      "Add turmeric, chilli, cumin powder, salt. Cook 3 min.",
+      "Add veggies + 1 cup water. Cover, cook 12 min.",
+      "Finish with a pinch of garam masala. Serve with rice or roti."
+    ]
+  },
+  {
+    "id": "lau-chingri",
+    "name": "Lau Chingri",
+    "bengali": "লাউ চিংড়ি",
+    "region": "Kolkata",
+    "cookTime": 30,
+    "tags": [
+      "prawn",
+      "bottle-gourd",
+      "light",
+      "weekday-friendly"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "Bottle gourd with small prawns — surprisingly addictive sweet-savoury dish. Light, healthy, and ready in 30 minutes.",
+    "ingredients": [
+      {
+        "name": "Bottle gourd (lau)",
+        "amount": "500g, peeled, cubed",
+        "orderLinks": {
+          "blinkit": "bottle gourd lauki",
+          "bigbasket": "bottle gourd"
+        }
+      },
+      {
+        "name": "Small prawns",
+        "amount": "150g, cleaned"
+      },
+      {
+        "name": "Onion paste",
+        "amount": "½ cup"
+      },
+      {
+        "name": "Ginger paste + turmeric + chilli",
+        "amount": "1 tsp + ½ + ½ tsp"
+      },
+      {
+        "name": "Mustard oil + bay leaf + cumin seeds",
+        "amount": "2 tbsp + 1 + ½ tsp"
+      }
+    ],
+    "steps": [
+      "Lightly fry prawns in mustard oil. Remove.",
+      "Temper oil with bay leaf, cumin. Add onion paste, cook 4 min.",
+      "Add ginger, turmeric, chilli. Add lau cubes, salt.",
+      "Cover, cook 15 min — bottle gourd releases water, no extra needed.",
+      "Add prawns, simmer 5 min. Serve with rice."
+    ]
+  },
+  {
+    "id": "tomato-khejur-chutney",
+    "name": "Tomato Khejur Chutney",
+    "bengali": "টমেটো খেজুর চাটনি",
+    "region": "Kolkata",
+    "cookTime": 20,
+    "tags": [
+      "veg",
+      "chutney",
+      "sweet",
+      "side",
+      "weekday-friendly"
+    ],
+    "category": "snack",
+    "mealType": [
+      "lunch"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Sweet tomato chutney with dates and raisins — served at the end of a Bengali meal. Tangy, jammy, soul-satisfying.",
+    "ingredients": [
+      {
+        "name": "Tomatoes",
+        "amount": "4, chopped",
+        "orderLinks": {
+          "blinkit": "tomato",
+          "bigbasket": "tomato"
+        }
+      },
+      {
+        "name": "Dates (khejur)",
+        "amount": "6, pitted, chopped",
+        "orderLinks": {
+          "blinkit": "dates khejur",
+          "bigbasket": "dates"
+        }
+      },
+      {
+        "name": "Raisins",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Panch phoron + dried chilli",
+        "amount": "½ tsp + 2"
+      },
+      {
+        "name": "Sugar or jaggery",
+        "amount": "4 tbsp"
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Roasted panch phoron powder",
+        "amount": "½ tsp, to finish"
+      }
+    ],
+    "steps": [
+      "Heat mustard oil. Temper with panch phoron and dried chilli.",
+      "Add tomatoes, a pinch of salt, turmeric. Cook 5 min until pulpy.",
+      "Add dates, raisins, sugar. Cook on low 10 min until jammy.",
+      "Finish with roasted panch phoron powder.",
+      "Cool. Serve at end of the meal with a papor."
+    ]
+  },
+  {
+    "id": "brick-lane-chicken-bhuna",
+    "name": "Brick Lane Chicken Bhuna",
+    "bengali": "ব্রিক লেন চিকেন ভুনা",
+    "region": "London",
+    "cookTime": 45,
+    "tags": [
+      "chicken",
+      "diaspora",
+      "brick-lane",
+      "curry-house"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "medium",
+    "description": "London Bangladeshi curry-house style bhuna — dry, deeply spiced chicken with caramelised onions. Brick Lane's weekend staple.",
+    "ingredients": [
+      {
+        "name": "Chicken thighs (boneless)",
+        "amount": "500g, cubed",
+        "orderLinks": {
+          "blinkit": "chicken thigh boneless",
+          "bigbasket": "chicken boneless"
+        }
+      },
+      {
+        "name": "Onion",
+        "amount": "3 large, thinly sliced",
+        "orderLinks": {
+          "blinkit": "onion",
+          "bigbasket": "onion"
+        }
+      },
+      {
+        "name": "Ginger-garlic paste",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Tomato paste or puree",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Curry-house base gravy powder",
+        "amount": "2 tsp",
+        "bangaloreSubstitute": "Use 1 tsp cumin + 1 tsp coriander + ½ tsp fenugreek powder",
+        "orderLinks": {
+          "blinkit": "curry powder",
+          "bigbasket": "curry powder"
+        }
+      },
+      {
+        "name": "Kashmiri chilli + turmeric + garam masala",
+        "amount": "1 + ½ + 1 tsp"
+      },
+      {
+        "name": "Oil",
+        "amount": "4 tbsp"
+      }
+    ],
+    "steps": [
+      "Fry onions in oil until deeply golden (~12 min). Remove half, keep rest in pan.",
+      "Add ginger-garlic paste + all dry spices. Cook 2 min.",
+      "Add tomato paste, cook until oil separates.",
+      "Add chicken, sear 4 min. Add fried onions back + salt + ½ cup water.",
+      "Cook uncovered on medium 20 min until sauce clings thickly to chicken.",
+      "Finish with garam masala. Serve with naan or rice."
+    ]
+  },
+  {
+    "id": "nyc-bengali-grain-bowl",
+    "name": "NYC Bengali Grain Bowl",
+    "bengali": "গ্রেইন বোল",
+    "region": "NYC",
+    "cookTime": 30,
+    "tags": [
+      "chicken",
+      "diaspora",
+      "healthy",
+      "bowl",
+      "weekday-friendly"
+    ],
+    "category": "fusion",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "Quinoa or brown rice topped with turmeric-spiced chicken, raita, pickled onions, and a kasundi drizzle. Bengali wellness bowl.",
+    "ingredients": [
+      {
+        "name": "Quinoa or brown rice",
+        "amount": "1 cup, cooked",
+        "orderLinks": {
+          "blinkit": "quinoa",
+          "bigbasket": "quinoa"
+        }
+      },
+      {
+        "name": "Chicken breast",
+        "amount": "300g, cubed"
+      },
+      {
+        "name": "Turmeric + garam masala + chilli + salt",
+        "amount": "1 + ½ + ½ tsp + to taste"
+      },
+      {
+        "name": "Yoghurt + roasted cumin",
+        "amount": "½ cup + ½ tsp (for raita)"
+      },
+      {
+        "name": "Red onion, sliced",
+        "amount": "½, soaked in lemon juice (pickled)"
+      },
+      {
+        "name": "Kasundi",
+        "amount": "1 tbsp",
+        "orderLinks": {
+          "blinkit": "kasundi",
+          "bigbasket": "kasundi"
+        }
+      },
+      {
+        "name": "Coriander leaves",
+        "amount": "handful"
+      }
+    ],
+    "steps": [
+      "Marinate chicken with spices. Pan-sear 12-15 min until caramelised.",
+      "Quick-pickle onion in lemon juice + pinch of salt, 10 min.",
+      "Whisk yoghurt with roasted cumin + salt = raita.",
+      "Assemble bowl: grain base, chicken, raita, pickled onion, coriander.",
+      "Drizzle kasundi over. Done."
+    ],
+    "prepTime": 20,
+    "prepNote": "Marinate chicken 20 min ahead; quick-pickle the onion 10 min before serving."
+  },
+  {
+    "id": "sydney-bengali-prawn-salad",
+    "name": "Sydney Bengali Prawn Salad",
+    "region": "Global",
+    "cookTime": 20,
+    "tags": [
+      "prawn",
+      "diaspora",
+      "salad",
+      "summer",
+      "weekday-friendly"
+    ],
+    "category": "fusion",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "Sydney-style warm prawn salad with raw mango, coriander, and a mustard-honey dressing. Bright, light, Bangalore-summer perfect.",
+    "ingredients": [
+      {
+        "name": "Prawns",
+        "amount": "300g, deveined"
+      },
+      {
+        "name": "Mixed greens + cucumber + cherry tomato",
+        "amount": "2 cups + ½ + ½ cup"
+      },
+      {
+        "name": "Raw mango",
+        "amount": "¼, julienned",
+        "bangaloreSubstitute": "Seasonal; use green apple out of season"
+      },
+      {
+        "name": "Coriander",
+        "amount": "handful, chopped"
+      },
+      {
+        "name": "Kasundi + honey + lime juice",
+        "amount": "1 tbsp + 2 tsp + 1 tbsp (dressing)"
+      },
+      {
+        "name": "Olive oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Turmeric + chilli + salt",
+        "amount": "¼ tsp + ¼ tsp + to taste"
+      }
+    ],
+    "steps": [
+      "Marinate prawns with turmeric, chilli, salt. Pan-sear in olive oil 4 min.",
+      "Whisk kasundi, honey, lime, olive oil into a dressing.",
+      "Toss greens, cucumber, tomato, raw mango, coriander in a bowl.",
+      "Top with warm prawns. Drizzle dressing. Serve immediately."
+    ],
+    "prepTime": 10,
+    "prepNote": "Marinate prawns 10 min before searing; the dressing can be made a day ahead."
+  },
+  {
+    "id": "toronto-nolen-gur-cookies",
+    "name": "Toronto Nolen Gur Cookies",
+    "region": "Global",
+    "cookTime": 35,
+    "tags": [
+      "sweet",
+      "baked",
+      "diaspora",
+      "cookies",
+      "jaggery"
+    ],
+    "category": "sweet",
+    "mealType": [],
+    "isVeg": true,
+    "difficulty": "medium",
+    "description": "Chocolate chip cookies with maple syrup and nolen gur — a Toronto Bengali's contribution to world baking. Chewy, deep-caramel.",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "amount": "100g, soft"
+      },
+      {
+        "name": "Nolen gur",
+        "amount": "100g",
+        "bangaloreSubstitute": "Regular jaggery + ½ tsp molasses"
+      },
+      {
+        "name": "Maple syrup",
+        "amount": "2 tbsp",
+        "orderLinks": {
+          "blinkit": "maple syrup",
+          "bigbasket": "maple syrup"
+        }
+      },
+      {
+        "name": "Egg",
+        "amount": "1"
+      },
+      {
+        "name": "Plain flour",
+        "amount": "1.5 cups",
+        "orderLinks": {
+          "blinkit": "maida",
+          "bigbasket": "maida"
+        }
+      },
+      {
+        "name": "Baking soda + salt",
+        "amount": "½ tsp each"
+      },
+      {
+        "name": "Dark chocolate chips",
+        "amount": "¾ cup",
+        "orderLinks": {
+          "blinkit": "dark chocolate chips",
+          "bigbasket": "chocolate chips"
+        }
+      }
+    ],
+    "steps": [
+      "Beat butter with nolen gur and maple syrup until creamy.",
+      "Beat in egg. Fold in flour, baking soda, salt.",
+      "Fold in chocolate chips.",
+      "Scoop onto baking tray. Bake at 180°C for 12-14 min until edges are golden.",
+      "Cool 5 min before eating."
+    ]
+  },
+  {
+    "id": "dubai-bengali-grill-roll",
+    "name": "Dubai Bengali Mixed Grill Roll",
+    "region": "Global",
+    "cookTime": 30,
+    "tags": [
+      "chicken",
+      "lamb",
+      "diaspora",
+      "roll",
+      "street-food"
+    ],
+    "category": "street-food",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "medium",
+    "description": "Dubai-style mixed grill (chicken tikka + seekh) wrapped in a paratha with garlic sauce. The Gulf Bengali taxi driver's favourite roll.",
+    "ingredients": [
+      {
+        "name": "Boneless chicken thigh",
+        "amount": "300g, cubed"
+      },
+      {
+        "name": "Minced lamb or chicken",
+        "amount": "150g"
+      },
+      {
+        "name": "Tandoori masala + yoghurt",
+        "amount": "2 tbsp + 3 tbsp"
+      },
+      {
+        "name": "Ginger-garlic paste",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Paratha",
+        "amount": "2",
+        "orderLinks": {
+          "blinkit": "frozen paratha",
+          "bigbasket": "frozen paratha"
+        }
+      },
+      {
+        "name": "Garlic-yoghurt sauce",
+        "amount": "¼ cup (yoghurt + garlic + lemon)"
+      },
+      {
+        "name": "Onion + tomato + pickled chilli",
+        "amount": "¼ each"
+      }
+    ],
+    "steps": [
+      "Marinate chicken cubes with half tandoori + half yoghurt + ginger-garlic, 20 min.",
+      "Mix minced meat with remaining tandoori, form small sausages.",
+      "Grill or pan-sear both until cooked.",
+      "Cook parathas. Layer garlic-yoghurt sauce + chicken + seekh + onion + tomato + pickled chilli.",
+      "Roll tight in foil. Eat hot."
+    ],
+    "prepTime": 20,
+    "prepNote": "Marinate chicken and mince for 20 min before grilling."
+  },
+  {
+    "id": "bangladeshi-british-tikka-masala",
+    "name": "Bangladeshi-British Chicken Tikka Masala",
+    "region": "London",
+    "cookTime": 50,
+    "tags": [
+      "chicken",
+      "diaspora",
+      "weekend-special",
+      "fusion"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "medium",
+    "description": "The UK's national dish — invented by Bangladeshi chefs in Glasgow/Birmingham. Creamy tomato, grilled chicken, deep warmth.",
+    "ingredients": [
+      {
+        "name": "Chicken thigh",
+        "amount": "500g, cubed"
+      },
+      {
+        "name": "Yoghurt + ginger-garlic + tandoori masala",
+        "amount": "½ cup + 1 tbsp + 2 tbsp"
+      },
+      {
+        "name": "Onion, pureed",
+        "amount": "2"
+      },
+      {
+        "name": "Tomato puree",
+        "amount": "1 cup"
+      },
+      {
+        "name": "Cream",
+        "amount": "½ cup",
+        "orderLinks": {
+          "blinkit": "fresh cream",
+          "bigbasket": "cream"
+        }
+      },
+      {
+        "name": "Kashmiri chilli + cumin + coriander + garam masala",
+        "amount": "1 + 1 + 1 + ½ tsp"
+      },
+      {
+        "name": "Butter + oil",
+        "amount": "1 tbsp each"
+      },
+      {
+        "name": "Kasuri methi",
+        "amount": "1 tsp"
+      }
+    ],
+    "steps": [
+      "Marinate chicken in yoghurt + ginger-garlic + tandoori masala for 30 min. Grill or pan-char.",
+      "In oil + butter, cook onion puree 6 min. Add spices, cook 2 min.",
+      "Add tomato puree, salt, sugar. Simmer 10 min till thick.",
+      "Add grilled chicken, cream, kasuri methi. Simmer 8 min.",
+      "Serve with naan or basmati rice."
+    ],
+    "prepTime": 30,
+    "prepNote": "Marinate chicken in yoghurt and spices for at least 30 min (overnight is better)."
+  },
+  {
+    "id": "singapore-mishti-pulao",
+    "name": "Singapore Mishti Pulao",
+    "region": "Global",
+    "cookTime": 40,
+    "tags": [
+      "veg",
+      "rice",
+      "sweet",
+      "diaspora",
+      "festive"
+    ],
+    "category": "rice",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "medium",
+    "description": "Singapore Bengali community's version of mishti pulao — saffron rice with pandan leaves, cashews, and raisins. A diaspora mash-up.",
+    "ingredients": [
+      {
+        "name": "Basmati rice",
+        "amount": "1.5 cups"
+      },
+      {
+        "name": "Ghee",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Whole garam masala + bay leaf",
+        "amount": "1 tsp + 1"
+      },
+      {
+        "name": "Pandan leaf",
+        "amount": "1, knotted",
+        "bangaloreSubstitute": "Skip or substitute 2 bay leaves",
+        "orderLinks": {
+          "blinkit": "pandan leaf",
+          "bigbasket": "pandan leaf"
+        }
+      },
+      {
+        "name": "Saffron",
+        "amount": "pinch, in warm milk"
+      },
+      {
+        "name": "Cashews + raisins",
+        "amount": "¼ + 2 tbsp"
+      },
+      {
+        "name": "Sugar + salt",
+        "amount": "2 tbsp + to taste"
+      }
+    ],
+    "steps": [
+      "Soak rice 20 min, drain.",
+      "Fry cashews and raisins in ghee. Remove.",
+      "Add whole garam masala, bay leaf, pandan to the ghee.",
+      "Add rice, salt, sugar, and 2¾ cups water + saffron milk.",
+      "Cover, cook on low 15 min. Fluff and fold in cashews + raisins.",
+      "Serve warm — great alongside chicken rezala or kosha mangsho."
+    ],
+    "prepTime": 20,
+    "prepNote": "Soak rice for 20 min before cooking so it cooks evenly and stays fluffy."
+  },
+  {
+    "id": "nyc-bengali-breakfast-burrito",
+    "name": "NYC Bengali Breakfast Burrito",
+    "region": "NYC",
+    "cookTime": 15,
+    "tags": [
+      "egg",
+      "diaspora",
+      "breakfast",
+      "quick-breakfast",
+      "weekday-friendly"
+    ],
+    "category": "fusion",
+    "mealType": [
+      "breakfast"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "NYC food-cart Bengali's weekday breakfast — tortilla wrap with spiced scrambled eggs, potato bhaji, and kasundi. Protein-packed grab-and-go.",
+    "ingredients": [
+      {
+        "name": "Whole-wheat tortilla",
+        "amount": "2",
+        "orderLinks": {
+          "blinkit": "tortilla wrap",
+          "bigbasket": "tortilla"
+        }
+      },
+      {
+        "name": "Eggs",
+        "amount": "3"
+      },
+      {
+        "name": "Boiled potato, mashed",
+        "amount": "1"
+      },
+      {
+        "name": "Turmeric + chilli + salt",
+        "amount": "¼ + ¼ tsp + to taste"
+      },
+      {
+        "name": "Onion + green chilli + coriander",
+        "amount": "¼ + 1 + handful"
+      },
+      {
+        "name": "Kasundi or hot sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Oil",
+        "amount": "1 tbsp"
+      }
+    ],
+    "steps": [
+      "Mash potato with turmeric, chilli, salt.",
+      "Scramble eggs in oil with onion and green chilli.",
+      "Warm tortilla. Spread potato mash + scrambled egg.",
+      "Top with coriander + kasundi.",
+      "Roll tight, halve, eat on the way out."
+    ]
+  },
+  {
+    "id": "melbourne-coconut-fish-curry",
+    "name": "Melbourne Coconut Fish Curry",
+    "region": "Global",
+    "cookTime": 35,
+    "tags": [
+      "fish",
+      "coconut",
+      "diaspora",
+      "weekday-friendly"
+    ],
+    "category": "fusion",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "Melbourne-style light fish curry with coconut milk and Bengali five-spice — what Aussie-Bengali families cook on Tuesdays.",
+    "ingredients": [
+      {
+        "name": "White fish fillets (basa, barramundi)",
+        "amount": "400g",
+        "orderLinks": {
+          "blinkit": "basa fish",
+          "bigbasket": "basa fish"
+        }
+      },
+      {
+        "name": "Coconut milk",
+        "amount": "400ml"
+      },
+      {
+        "name": "Panch phoron",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Ginger paste",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Turmeric + chilli + salt",
+        "amount": "½ + ½ tsp + to taste"
+      },
+      {
+        "name": "Curry leaves",
+        "amount": "10",
+        "orderLinks": {
+          "blinkit": "curry leaves",
+          "bigbasket": "curry leaves"
+        }
+      },
+      {
+        "name": "Oil + lemon juice",
+        "amount": "2 tbsp + 1 tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate fish with turmeric, chilli, salt.",
+      "Heat oil. Temper with panch phoron and curry leaves.",
+      "Add ginger paste, cook 2 min. Add coconut milk + salt.",
+      "Bring to gentle simmer. Slide in fish.",
+      "Simmer 10 min until fish is just cooked.",
+      "Finish with lemon juice. Serve over basmati."
+    ],
+    "prepTime": 15,
+    "prepNote": "Marinate fish with turmeric, chilli, and salt 15 min before cooking."
+  },
+  {
+    "id": "london-bengali-roast-chicken",
+    "name": "London Bengali Roast Chicken",
+    "region": "London",
+    "cookTime": 80,
+    "tags": [
+      "chicken",
+      "roast",
+      "diaspora",
+      "weekend-special",
+      "sunday"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "medium",
+    "description": "A whole chicken roast with turmeric-mustard-garlic butter under the skin — the UK Bengali Sunday dinner fusion that changes everything.",
+    "ingredients": [
+      {
+        "name": "Whole chicken",
+        "amount": "1.5 kg",
+        "orderLinks": {
+          "blinkit": "whole chicken",
+          "bigbasket": "whole chicken"
+        }
+      },
+      {
+        "name": "Softened butter",
+        "amount": "80g"
+      },
+      {
+        "name": "Mustard paste + turmeric + garlic",
+        "amount": "2 tbsp + 1 tsp + 6 cloves grated"
+      },
+      {
+        "name": "Kashmiri chilli + garam masala",
+        "amount": "1 tsp + 1 tsp"
+      },
+      {
+        "name": "Lemon",
+        "amount": "1"
+      },
+      {
+        "name": "Salt + pepper",
+        "amount": "to taste"
+      },
+      {
+        "name": "Onion + potato + carrot",
+        "amount": "1 + 3 + 2 (for roasting pan)"
+      }
+    ],
+    "steps": [
+      "Mix butter with mustard, turmeric, chilli, garam masala, garlic.",
+      "Loosen chicken skin. Rub spiced butter under and over the skin.",
+      "Stuff cavity with half lemon. Rub outside with salt + pepper.",
+      "Lay chopped onion, potato, carrot in a roasting tray, place chicken on top.",
+      "Roast at 200°C for 60-70 min, basting halfway, until juices run clear.",
+      "Rest 10 min. Carve. Spoon pan juices over."
+    ]
+  },
+  {
+    "id": "mutton-kosha",
+    "name": "Kosha Mangsho",
+    "bengali": "কষা মাংস",
+    "region": "Kolkata",
+    "cookTime": 90,
+    "tags": [
+      "mutton",
+      "weekend-special",
+      "sunday",
+      "classic"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "hard",
+    "description": "Slow-cooked Bengali mutton in a deep, dark, onion-based gravy — the ritual Sunday lunch of Kolkata. No shortcuts.",
+    "ingredients": [
+      {
+        "name": "Goat mutton (with bone)",
+        "amount": "750g",
+        "orderLinks": {
+          "blinkit": "goat mutton",
+          "bigbasket": "mutton curry cut"
+        }
+      },
+      {
+        "name": "Onion",
+        "amount": "4 large, thinly sliced"
+      },
+      {
+        "name": "Yoghurt",
+        "amount": "½ cup"
+      },
+      {
+        "name": "Ginger-garlic paste",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Whole garam masala + bay leaf",
+        "amount": "2 tsp + 2"
+      },
+      {
+        "name": "Kashmiri chilli + turmeric + cumin + coriander",
+        "amount": "1.5 + 1 + 1 + 1 tsp"
+      },
+      {
+        "name": "Mustard oil + ghee",
+        "amount": "4 tbsp + 1 tbsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Potato",
+        "amount": "3, halved"
+      }
+    ],
+    "steps": [
+      "Marinate mutton in yoghurt + ginger-garlic + salt, 1 hour.",
+      "Heat oil. Add sugar, let caramelize. Add onions, fry 15 min till deep brown.",
+      "Add whole garam masala + bay leaf. Add mutton + potatoes.",
+      "Add all powdered spices. Cook on medium-high, stirring, for 15 min — this 'kosha' step is crucial.",
+      "Add hot water to cover. Pressure cook 25 min, or slow simmer 50 min.",
+      "Finish with a spoonful of ghee. Rest 10 min. Serve with luchi or rice."
+    ],
+    "prepTime": 60,
+    "prepNote": "Marinate mutton in yoghurt and ginger-garlic for at least 1 hour — overnight in the fridge gives deeper flavour."
+  },
+  {
+    "id": "bhetki-paturi",
+    "name": "Bhetki Paturi",
+    "bengali": "ভেটকি পাতুরি",
+    "region": "Kolkata",
+    "cookTime": 50,
+    "tags": [
+      "fish",
+      "banana-leaf",
+      "mustard",
+      "weekend-special"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "hard",
+    "description": "Bhetki fish fillets smeared with mustard-coconut paste, wrapped in banana leaves, steamed. Pure Bengali umami.",
+    "ingredients": [
+      {
+        "name": "Bhetki fillets",
+        "amount": "400g",
+        "bangaloreSubstitute": "Seer (surmai) or basa fillets work; bhetki occasionally at big fish markets",
+        "orderLinks": {
+          "blinkit": "bhetki fish",
+          "bigbasket": "bhetki fillet"
+        }
+      },
+      {
+        "name": "Black + yellow mustard seeds",
+        "amount": "3 + 1 tbsp"
+      },
+      {
+        "name": "Fresh coconut, grated",
+        "amount": "½ cup"
+      },
+      {
+        "name": "Green chillies",
+        "amount": "4"
+      },
+      {
+        "name": "Turmeric + salt",
+        "amount": "½ tsp + to taste"
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Banana leaves",
+        "amount": "4 pieces, softened over flame",
+        "bangaloreSubstitute": "Baking parchment + foil wrap works; banana leaves at Gandhi Bazaar"
+      }
+    ],
+    "steps": [
+      "Soak mustard seeds 20 min. Grind with coconut, green chillies, salt, turmeric into thick paste.",
+      "Marinate fish pieces in this paste + 1 tbsp mustard oil for 20 min.",
+      "Lay fish on softened banana leaf, add a green chilli on top, drizzle mustard oil.",
+      "Fold leaf into a parcel. Tie with string or toothpick.",
+      "Steam for 15 min, or pan-steam in a lidded skillet for 12 min.",
+      "Open at table. Serve with hot rice."
+    ],
+    "prepTime": 40,
+    "prepNote": "Soak mustard seeds 20 min, grind paste, then marinate fish in the paste for a further 20 min."
+  },
+  {
+    "id": "chingri-bhapa",
+    "name": "Chingri Bhapa",
+    "bengali": "চিংড়ি ভাপা",
+    "region": "Kolkata",
+    "cookTime": 50,
+    "tags": [
+      "prawn",
+      "mustard",
+      "steamed",
+      "weekend-special"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "medium",
+    "description": "Prawns steamed in a mustard-coconut-yoghurt paste. No frying, maximum flavour. Bengali purity at its peak.",
+    "ingredients": [
+      {
+        "name": "Medium prawns",
+        "amount": "400g, deveined",
+        "orderLinks": {
+          "blinkit": "prawns",
+          "bigbasket": "prawns"
+        }
+      },
+      {
+        "name": "Black + yellow mustard seeds",
+        "amount": "2 + 1 tbsp"
+      },
+      {
+        "name": "Fresh coconut grated",
+        "amount": "4 tbsp"
+      },
+      {
+        "name": "Yoghurt",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Green chillies",
+        "amount": "4"
+      },
+      {
+        "name": "Turmeric + salt + sugar",
+        "amount": "½ tsp + to taste + ½ tsp"
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "3 tbsp"
+      }
+    ],
+    "steps": [
+      "Soak mustard seeds 20 min. Grind smooth with coconut, chillies, yoghurt, turmeric, salt, sugar.",
+      "Combine prawns with the paste + 2 tbsp mustard oil.",
+      "Transfer to a steel tiffin box or heatproof bowl with a lid. Drizzle remaining mustard oil and place 2 green chillies on top.",
+      "Steam 20-25 min in a pressure cooker (no whistle) or steamer.",
+      "Rest 5 min before opening. Serve with hot rice."
+    ]
+  },
+  {
+    "id": "katla-kalia",
+    "name": "Katla Kalia",
+    "bengali": "কাতলা কালিয়া",
+    "region": "Kolkata",
+    "cookTime": 55,
+    "tags": [
+      "fish",
+      "rich",
+      "weekend-special",
+      "festive"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "medium",
+    "description": "Katla fish in a rich, reddish onion-tomato gravy — reserved for Bengali feasts and Sunday lunches. Royal but achievable.",
+    "ingredients": [
+      {
+        "name": "Katla fish steaks",
+        "amount": "500g, cleaned",
+        "orderLinks": {
+          "blinkit": "katla fish",
+          "bigbasket": "katla fish"
+        }
+      },
+      {
+        "name": "Onion paste",
+        "amount": "2 large"
+      },
+      {
+        "name": "Tomato puree",
+        "amount": "2 tomatoes"
+      },
+      {
+        "name": "Ginger-garlic paste",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Yoghurt",
+        "amount": "¼ cup"
+      },
+      {
+        "name": "Kashmiri chilli + cumin + coriander + garam masala",
+        "amount": "1.5 + 1 + 1 + ½ tsp"
+      },
+      {
+        "name": "Mustard oil + bay leaf + whole garam masala",
+        "amount": "4 tbsp + 2 + 1 tsp"
+      },
+      {
+        "name": "Sugar + salt",
+        "amount": "1 tsp + to taste"
+      }
+    ],
+    "steps": [
+      "Marinate fish with turmeric + salt. Fry in mustard oil until golden both sides. Remove.",
+      "In same oil, temper with bay leaf + whole garam masala.",
+      "Add onion paste, cook 8 min till golden.",
+      "Add ginger-garlic paste, spices. Cook 3 min.",
+      "Add tomato + yoghurt + sugar + salt. Cook 8 min till oil separates.",
+      "Add 1 cup water and fish. Simmer 10 min. Finish with garam masala. Serve with rice or pulao."
+    ],
+    "prepTime": 10,
+    "prepNote": "Marinate fish with turmeric and salt 10 min before frying."
+  },
+  {
+    "id": "pabda-jhol",
+    "name": "Pabda Jhol",
+    "bengali": "পাবদা ঝোল",
+    "region": "Kolkata",
+    "cookTime": 40,
+    "tags": [
+      "fish",
+      "light",
+      "weekend-special",
+      "weekday-friendly"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "medium",
+    "description": "Pabda fish in a delicate turmeric-nigella broth with green chillies. Light enough for a weekday, elegant enough for guests.",
+    "ingredients": [
+      {
+        "name": "Pabda fish",
+        "amount": "500g, cleaned whole",
+        "bangaloreSubstitute": "Try frozen pabda at BigBasket; pomfret baby or tilapia as substitute",
+        "orderLinks": {
+          "blinkit": "pabda fish",
+          "bigbasket": "pabda fish"
+        }
+      },
+      {
+        "name": "Kalonji",
+        "amount": "½ tsp"
+      },
+      {
+        "name": "Green chillies",
+        "amount": "5, slit"
+      },
+      {
+        "name": "Turmeric + salt",
+        "amount": "1 tsp + to taste"
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Ginger paste",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Tomato",
+        "amount": "1, chopped"
+      }
+    ],
+    "steps": [
+      "Marinate fish with turmeric + salt.",
+      "Heat mustard oil. Shallow fry fish very gently 1 min per side. Remove.",
+      "Add kalonji + green chillies to oil. Add tomato + ginger paste. Cook 3 min.",
+      "Add 1.5 cups water + turmeric + salt. Boil 2 min.",
+      "Slide fish in. Simmer 8 min on low.",
+      "Drizzle raw mustard oil. Serve with rice."
+    ],
+    "prepTime": 10,
+    "prepNote": "Marinate fish with turmeric and salt 10 min ahead — they are delicate, so handle gently."
+  },
+  {
+    "id": "basanti-pulao",
+    "name": "Basanti Pulao",
+    "bengali": "বাসন্তী পোলাও",
+    "region": "Kolkata",
+    "cookTime": 50,
+    "tags": [
+      "veg",
+      "rice",
+      "saffron",
+      "festive",
+      "weekend-special"
+    ],
+    "category": "rice",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "medium",
+    "description": "Bengali sweet saffron pulao with cashews and raisins. The pulao of weddings, Durga puja, and Sunday specials.",
+    "ingredients": [
+      {
+        "name": "Gobindobhog rice",
+        "amount": "1.5 cups",
+        "bangaloreSubstitute": "Short-grain fragrant rice works; gobindobhog on BigBasket",
+        "orderLinks": {
+          "blinkit": "gobindobhog rice",
+          "bigbasket": "gobindobhog rice"
+        }
+      },
+      {
+        "name": "Ghee",
+        "amount": "4 tbsp"
+      },
+      {
+        "name": "Bay leaves + whole garam masala",
+        "amount": "2 + 1 tsp"
+      },
+      {
+        "name": "Saffron",
+        "amount": "pinch, in 2 tbsp warm milk"
+      },
+      {
+        "name": "Turmeric",
+        "amount": "½ tsp (for colour)"
+      },
+      {
+        "name": "Cashews + raisins",
+        "amount": "¼ + 2 tbsp"
+      },
+      {
+        "name": "Sugar + salt",
+        "amount": "3 tbsp + to taste"
+      }
+    ],
+    "steps": [
+      "Wash rice gently, drain on cloth 30 min. Rub 2 tbsp ghee + turmeric + salt + sugar into rice.",
+      "Heat remaining ghee. Fry cashews and raisins, remove.",
+      "Add bay leaves and whole garam masala.",
+      "Add rice, stir gently 2 min.",
+      "Add 2¾ cups water + saffron milk. Cover, cook on low 15 min.",
+      "Turn off heat, rest 10 min. Fold in cashews + raisins. Serve with chicken rezala or kosha mangsho."
+    ]
+  },
+  {
+    "id": "rasgulla",
+    "name": "Rasgulla",
+    "bengali": "রসগোল্লা",
+    "region": "Kolkata",
+    "cookTime": 60,
+    "tags": [
+      "sweet",
+      "dessert",
+      "chenna",
+      "iconic"
+    ],
+    "category": "sweet",
+    "mealType": [],
+    "isVeg": true,
+    "difficulty": "medium",
+    "description": "Soft, spongy chhena balls simmered in sugar syrup — Bengal's most famous sweet, achievable at home with patience.",
+    "ingredients": [
+      {
+        "name": "Full-fat milk",
+        "amount": "1 litre"
+      },
+      {
+        "name": "Lemon juice or vinegar",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1.5 cups"
+      },
+      {
+        "name": "Water",
+        "amount": "4 cups"
+      },
+      {
+        "name": "Cardamom pods",
+        "amount": "3, crushed"
+      }
+    ],
+    "steps": [
+      "Boil milk. Off heat, add lemon juice slowly till milk curdles.",
+      "Strain through muslin, rinse under cold water to remove tartness. Hang 15 min.",
+      "Knead chhena on a plate for 8 minutes until smooth and greasy — this is critical.",
+      "Roll into 12-14 small smooth balls, no cracks.",
+      "Boil sugar + water + cardamom. Drop balls in. Cover, boil vigorously 15 min — they double in size.",
+      "Cool completely in syrup. Refrigerate 3+ hours before serving."
+    ],
+    "prepTime": 30,
+    "prepNote": "Make chhena 30 min before starting: curdle milk with lemon, strain through muslin, rinse, and hang for 15 min to drain."
+  },
+  {
+    "id": "sandesh",
+    "name": "Sandesh",
+    "bengali": "সন্দেশ",
+    "region": "Kolkata",
+    "cookTime": 45,
+    "tags": [
+      "sweet",
+      "dessert",
+      "chenna",
+      "quick-sweet"
+    ],
+    "category": "sweet",
+    "mealType": [],
+    "isVeg": true,
+    "difficulty": "medium",
+    "description": "Fresh chhena sweet with cardamom — dry, melt-in-mouth, elegant. The fancy Bengali sweet box staple.",
+    "ingredients": [
+      {
+        "name": "Full-fat milk",
+        "amount": "1 litre"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Powdered sugar",
+        "amount": "½ cup"
+      },
+      {
+        "name": "Cardamom powder",
+        "amount": "¼ tsp"
+      },
+      {
+        "name": "Pistachio slivers",
+        "amount": "for garnish"
+      }
+    ],
+    "steps": [
+      "Make chhena (see rasgulla steps). Hang only 20 min — don't over-dry.",
+      "Knead chhena on a plate 10 min until creamy.",
+      "Transfer to pan with sugar + cardamom. Cook on low 6-8 min, stirring constantly, until thickens.",
+      "Off heat, cool slightly. Shape into small discs or press into moulds.",
+      "Garnish with pistachio. Cool 30 min. Serve chilled."
+    ],
+    "prepTime": 30,
+    "prepNote": "Make chhena 30 min before starting: curdle milk, strain through muslin, rinse, and hang 20 min. Don't over-drain."
+  },
+  {
+    "id": "chhanar-payesh",
+    "name": "Chhanar Payesh",
+    "bengali": "ছানার পায়েস",
+    "region": "Kolkata",
+    "cookTime": 55,
+    "tags": [
+      "sweet",
+      "dessert",
+      "milk",
+      "festive"
+    ],
+    "category": "sweet",
+    "mealType": [],
+    "isVeg": true,
+    "difficulty": "medium",
+    "description": "Reduced sweet milk studded with tiny chhena pearls — richer than rice kheer, lighter than rabdi.",
+    "ingredients": [
+      {
+        "name": "Milk (for chhena)",
+        "amount": "500 ml"
+      },
+      {
+        "name": "Milk (for rabdi)",
+        "amount": "750 ml"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "1.5 tbsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "½ cup"
+      },
+      {
+        "name": "Cardamom + bay leaf + saffron",
+        "amount": "4 pods + 1 + pinch"
+      },
+      {
+        "name": "Pistachios + almonds",
+        "amount": "2 tbsp, slivered"
+      }
+    ],
+    "steps": [
+      "Curdle 500ml milk with lemon. Strain, rinse, hang 15 min.",
+      "Knead chhena 5 min. Roll into tiny pea-sized balls.",
+      "In separate pan, reduce 750ml milk with cardamom + bay leaf + saffron till half, stirring often.",
+      "Add sugar to reduced milk. Cook 2 min.",
+      "Gently drop chhena balls in. Simmer 8 min — don't stir roughly.",
+      "Cool. Refrigerate 3 hours. Garnish with nuts."
+    ],
+    "prepTime": 30,
+    "prepNote": "Make chhena 30 min before starting: curdle 500 ml milk with lemon, strain, rinse, and hang 15 min in muslin."
+  },
+  {
+    "id": "pantua",
+    "name": "Pantua",
+    "bengali": "পান্তুয়া",
+    "region": "Kolkata",
+    "cookTime": 50,
+    "tags": [
+      "sweet",
+      "dessert",
+      "fried",
+      "festive"
+    ],
+    "category": "sweet",
+    "mealType": [],
+    "isVeg": true,
+    "difficulty": "medium",
+    "description": "Bengali gulab jamun — deep-fried chhena + khoya balls soaked in sugar syrup. Darker, denser, more indulgent than its northern cousin.",
+    "ingredients": [
+      {
+        "name": "Chhena (from 500 ml milk)",
+        "amount": "as above"
+      },
+      {
+        "name": "Khoya or milk powder",
+        "amount": "¼ cup",
+        "orderLinks": {
+          "blinkit": "khoya",
+          "bigbasket": "milk powder"
+        }
+      },
+      {
+        "name": "Maida + semolina",
+        "amount": "2 tbsp + 1 tbsp"
+      },
+      {
+        "name": "Cardamom + baking soda",
+        "amount": "pinch of each"
+      },
+      {
+        "name": "Ghee or oil",
+        "amount": "for deep frying"
+      },
+      {
+        "name": "Sugar + water",
+        "amount": "1.5 cups + 3 cups (syrup)"
+      }
+    ],
+    "steps": [
+      "Knead chhena + khoya + maida + semolina + cardamom + soda into smooth dough.",
+      "Roll into smooth balls, no cracks.",
+      "Heat ghee to medium-low. Fry balls slowly, turning often, 8-10 min until deep brown.",
+      "Prepare thin sugar syrup separately (one-string consistency).",
+      "Drop fried balls into warm syrup. Let soak 2+ hours.",
+      "Serve warm or room temperature."
+    ],
+    "prepTime": 30,
+    "prepNote": "Make chhena 30 min before starting: curdle milk with lemon, strain, rinse, and hang 15 min in muslin, then knead."
+  },
+  {
+    "id": "chomchom",
+    "name": "Chomchom",
+    "bengali": "চমচম",
+    "region": "Dhaka",
+    "cookTime": 60,
+    "tags": [
+      "sweet",
+      "dessert",
+      "chenna",
+      "dhaka-special"
+    ],
+    "category": "sweet",
+    "mealType": [],
+    "isVeg": true,
+    "difficulty": "hard",
+    "description": "Oval Bangladeshi milk sweet from Tangail — chewier and denser than rasgulla, often layered with cardamom mawa on top.",
+    "ingredients": [
+      {
+        "name": "Full-fat milk",
+        "amount": "1 litre"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1.5 cups"
+      },
+      {
+        "name": "Water",
+        "amount": "4 cups"
+      },
+      {
+        "name": "Cardamom",
+        "amount": "4 pods"
+      },
+      {
+        "name": "Mawa/khoya, crumbled",
+        "amount": "3 tbsp (optional topping)"
+      }
+    ],
+    "steps": [
+      "Make chhena (curdle milk with lemon, strain, rinse, hang 15 min).",
+      "Knead chhena 8 min till smooth.",
+      "Roll into oblong shapes, about 1.5 inches long.",
+      "Boil sugar + water + cardamom.",
+      "Drop chomchoms in. Cover, boil 20 min — they swell and deepen to honey colour.",
+      "Cool in syrup. Optionally top with crumbled mawa. Refrigerate before serving."
+    ],
+    "prepTime": 30,
+    "prepNote": "Make chhena 30 min before starting: curdle milk with lemon, strain, rinse, and hang 15 min before kneading."
+  },
+  {
+    "id": "ledikeni",
+    "name": "Ledikeni",
+    "bengali": "লেডিকেনি",
+    "region": "Kolkata",
+    "cookTime": 55,
+    "tags": [
+      "sweet",
+      "dessert",
+      "fried",
+      "historic"
+    ],
+    "category": "sweet",
+    "mealType": [],
+    "isVeg": true,
+    "difficulty": "hard",
+    "description": "Cylinder-shaped fried chhena sweet created in 1856 for Lady Canning — deep caramel outside, soft syrup-soaked inside.",
+    "ingredients": [
+      {
+        "name": "Chhena (from 700 ml milk)",
+        "amount": "as per rasgulla method"
+      },
+      {
+        "name": "Khoya or milk powder",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Maida",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Baking soda + cardamom powder",
+        "amount": "pinch + ¼ tsp"
+      },
+      {
+        "name": "Ghee for frying",
+        "amount": "enough to deep-fry"
+      },
+      {
+        "name": "Sugar + water + cardamom",
+        "amount": "1.5 cups + 3 cups + 3 pods (syrup)"
+      }
+    ],
+    "steps": [
+      "Mix chhena, khoya, maida, soda, cardamom. Knead into smooth dough.",
+      "Shape into small oval cylinders, 1.5 inch.",
+      "Heat ghee to low-medium. Fry gently 10 min, turning, until deep reddish-brown all over.",
+      "Make thin syrup in separate pan (3 cups water + 1.5 cups sugar + cardamom).",
+      "Drop fried ledikenis into hot syrup. Soak 3-4 hours till saturated.",
+      "Serve at room temperature."
+    ],
+    "prepTime": 30,
+    "prepNote": "Make chhena 30 min before starting: curdle milk with lemon, strain, rinse, and hang 15 min before mixing the dough."
+  },
+  {
+    "id": "masoor-dal-er-dum",
+    "name": "Masoor Dal-er Dum",
+    "bengali": "মসুর ডালের দম",
+    "region": "Kolkata",
+    "cookTime": 25,
+    "tags": [
+      "weekday-friendly",
+      "dal",
+      "comfort",
+      "veg"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "Everyday red lentils finished dum-style with a kalo jeere + kancha lonka tadka. The 10-minute rest after tempering is where the magic happens — flavour doubles.",
+    "ingredients": [
+      {
+        "name": "Masoor dal (red lentils)",
+        "amount": "1 cup",
+        "orderLinks": {
+          "blinkit": "masoor dal",
+          "bigbasket": "masoor dal red lentils",
+          "swiggy": "masoor dal"
+        }
+      },
+      {
+        "name": "Tomato, chopped",
+        "amount": "1 medium",
+        "orderLinks": {
+          "blinkit": "tomato",
+          "bigbasket": "tomato"
+        }
+      },
+      {
+        "name": "Turmeric + salt",
+        "amount": "½ tsp + to taste"
+      },
+      {
+        "name": "Green chilli, slit",
+        "amount": "2"
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "2 tbsp",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "kachi ghani mustard oil"
+        }
+      },
+      {
+        "name": "Kalo jeere (nigella seeds)",
+        "amount": "½ tsp",
+        "bangaloreSubstitute": "Nature's Basket or MTR stocks it; else substitute with cumin seeds",
+        "orderLinks": {
+          "blinkit": "nigella seeds kalonji",
+          "bigbasket": "kalonji nigella seeds"
+        }
+      },
+      {
+        "name": "Dried red chilli",
+        "amount": "2"
+      },
+      {
+        "name": "Ghee",
+        "amount": "1 tsp (finish)",
+        "orderLinks": {
+          "blinkit": "ghee",
+          "bigbasket": "cow ghee"
+        }
+      },
+      {
+        "name": "Fresh coriander",
+        "amount": "1 tbsp chopped"
+      }
+    ],
+    "steps": [
+      "Rinse masoor dal. Pressure cook with tomato, turmeric, salt, green chilli and 3 cups water — 3 whistles (~8 min).",
+      "Whisk the cooked dal till smooth. Simmer while you make the tadka.",
+      "Heat mustard oil till smoking, cool slightly. Crackle kalo jeere + dried red chilli.",
+      "Pour tadka over dal. Immediately cover with a tight lid — this is the dum step.",
+      "Let sit, heat off, for 10 min. The nigella flavour infuses beautifully.",
+      "Finish with ghee and coriander. Serve with rice."
+    ]
+  }
+]
