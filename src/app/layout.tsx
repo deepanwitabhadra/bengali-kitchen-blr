@@ -21,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </div>
             </Link>
             <nav className="flex items-center gap-4 text-sm font-medium">
+              <Link href="/" className="text-gray-600 hover:text-amber-700 transition-colors py-2 px-1">Planner</Link>
               <Link href="/recipes" className="text-gray-600 hover:text-amber-700 transition-colors py-2 px-1">Recipes</Link>
             </nav>
           </div>

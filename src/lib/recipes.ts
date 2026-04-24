@@ -171,3 +171,27 @@ export function autoSuggestMealPlan(): Record<string, Record<MealType, Recipe | 
 }
 
 export { DAYS }
+
+export type Staple = "rice" | "luchi" | "ruti" | "porrota" | "polau"
+
+const STANDALONE_CATEGORIES = new Set(["street-food", "snack", "sweet", "rice", "bread"])
+const STANDALONE_TAGS = ["roast", "salad", "bowl"]
+
+export function needsStaple(recipe: Recipe): boolean {
+  if (STANDALONE_CATEGORIES.has(recipe.category)) return false
+  if (recipe.tags.some((t) => STANDALONE_TAGS.includes(t))) return false
+  return true
+}
+
+export function defaultStaple(day: string): Staple {
+  return day === "Saturday" || day === "Sunday" ? "luchi" : "rice"
+}
+
+export const STAPLE_OPTIONS: Staple[] = ["rice", "luchi", "ruti", "porrota", "polau"]
+export const STAPLE_LABEL: Record<Staple, string> = {
+  rice:    "🍚 Rice",
+  luchi:   "🥐 Luchi",
+  ruti:    "🫓 Ruti",
+  porrota: "🫓 Porrota",
+  polau:   "🍛 Polau",
+}

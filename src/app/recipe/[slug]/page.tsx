@@ -42,15 +42,19 @@ const difficultyColor: Record<string, string> = {
   hard: "text-red-700 bg-red-50",
 }
 
-export default async function RecipePage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function RecipePage({ params, searchParams }: { params: Promise<{ slug: string }>; searchParams: Promise<{ from?: string }> }) {
   const { slug } = await params
+  const { from } = await searchParams
   const recipe = getRecipeById(slug)
   if (!recipe) notFound()
 
+  const backHref = from === "planner" ? "/" : "/recipes"
+  const backLabel = from === "planner" ? "← Planner" : "← All recipes"
+
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
-      <Link href="/recipes" className="inline-flex items-center gap-1 text-sm text-amber-600 hover:text-amber-800 mb-6 transition-colors">
-        ← All recipes
+      <Link href={backHref} className="inline-flex items-center gap-1 text-sm text-amber-600 hover:text-amber-800 mb-6 transition-colors">
+        {backLabel}
       </Link>
 
       <div className="bg-gradient-to-br from-amber-50 to-orange-100 rounded-2xl p-4 sm:p-8 mb-6 flex items-center justify-between">

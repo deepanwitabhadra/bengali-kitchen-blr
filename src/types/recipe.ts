@@ -33,6 +33,14 @@ export interface Recipe {
   prepNote?: string
 }
 
+export interface CustomMeal {
+  id: string
+  name: string
+  isCustom: true
+}
+
+export type PlanSlot = Recipe | CustomMeal | null
+
 export interface MealPlan {
   [day: string]: {
     breakfast?: Recipe

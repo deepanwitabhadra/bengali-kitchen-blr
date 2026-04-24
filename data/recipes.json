@@ -384,9 +384,16 @@
     "tags": [
       "veg",
       "bread",
+      "luchi",
       "potato",
+      "deep-fried",
       "breakfast",
-      "weekend"
+      "weekend",
+      "weekend-special",
+      "festive",
+      "classic",
+      "sunday",
+      "niramish"
     ],
     "category": "bread",
     "mealType": [
@@ -454,6 +461,100 @@
       "Divide dough into small balls. Roll into small circles (puri-size).",
       "Deep fry in hot oil until puffed and golden. Drain on paper.",
       "Serve hot luchis with the torkari."
+    ]
+  },
+  {
+    "id": "sada-alur-torkari",
+    "name": "Sada Alur Torkari",
+    "bengali": "সাদা আলুর তরকারি",
+    "region": "Kolkata",
+    "cookTime": 20,
+    "tags": [
+      "veg",
+      "potato",
+      "niramish",
+      "quick",
+      "comfort",
+      "weekday-friendly",
+      "classic",
+      "simple",
+      "panch-phoron"
+    ],
+    "category": "curry",
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "easy",
+    "description": "A clean, niramish potato curry with panch phoron and mustard oil — no onion, no garlic. Pairs with luchi, roti, or as a light side with rice.",
+    "ingredients": [
+      {
+        "name": "Potatoes",
+        "amount": "4 medium, cubed",
+        "orderLinks": {
+          "blinkit": "potato",
+          "bigbasket": "potato",
+          "swiggy": "potato"
+        }
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "2 tbsp",
+        "bangaloreSubstitute": "Available at Nature's Basket, Namdhari's, or Amazon Fresh",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "mustard oil",
+          "swiggy": "mustard oil"
+        }
+      },
+      {
+        "name": "Panch phoron",
+        "amount": "1 tsp",
+        "bangaloreSubstitute": "Mix equal parts cumin, nigella, fennel, fenugreek, and mustard seeds",
+        "orderLinks": {
+          "blinkit": "panch phoron",
+          "bigbasket": "panch phoron five spice"
+        }
+      },
+      {
+        "name": "Dried red chillies",
+        "amount": "2",
+        "orderLinks": {
+          "blinkit": "dry red chilli",
+          "bigbasket": "dry red chilli"
+        }
+      },
+      {
+        "name": "Turmeric powder",
+        "amount": "½ tsp",
+        "orderLinks": {
+          "blinkit": "turmeric powder",
+          "bigbasket": "turmeric powder"
+        }
+      },
+      {
+        "name": "Green chillies",
+        "amount": "2, slit",
+        "orderLinks": {
+          "blinkit": "green chilli",
+          "bigbasket": "green chilli"
+        }
+      },
+      {
+        "name": "Salt",
+        "amount": "to taste"
+      }
+    ],
+    "steps": [
+      "Boil or pressure cook potatoes until just tender. Peel and cut into rough chunks.",
+      "Heat mustard oil in a kadai until lightly smoking. Lower heat.",
+      "Add panch phoron and dried red chillies — let them splutter for 30 seconds.",
+      "Add potato chunks and toss to coat in the tempered oil.",
+      "Add turmeric, salt, and green chillies. Mix well.",
+      "Add ½ cup water, cover, and cook on low for 5–7 minutes until the curry comes together.",
+      "Finish with a drizzle of raw mustard oil. Serve with luchi, roti, or alongside dal and rice."
     ]
   },
   {

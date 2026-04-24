@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react"
 import { useSearchParams } from "next/navigation"
+import Link from "next/link"
 import RecipeRow from "@/components/RecipeRow"
 import FilterBar from "@/components/FilterBar"
 import type { Recipe } from "@/types/recipe"
@@ -24,6 +25,9 @@ export default function RecipesClient({ allRecipes }: { allRecipes: Recipe[] }) 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
       <div className="mb-6">
+        <Link href="/" className="inline-flex items-center gap-1 text-sm text-amber-600 hover:text-amber-800 mb-3 transition-colors">
+          ← Planner
+        </Link>
         <h1 className="text-2xl font-bold text-gray-900">All Recipes</h1>
         <p className="text-gray-500 mt-1 text-sm">Quick reference — tap any recipe for full details and ingredient order links.</p>
       </div>

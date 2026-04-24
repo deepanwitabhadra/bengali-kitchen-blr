@@ -2,10 +2,34 @@
 
 import { useState, useCallback, useEffect, Fragment } from "react"
 import Link from "next/link"
-import type { Recipe, MealType } from "@/types/recipe"
-import { autoSuggestMealPlan, recipes as allRecipes, DAYS } from "@/lib/recipes"
+import type { Recipe, MealType, CustomMeal, PlanSlot } from "@/types/recipe"
+import { autoSuggestMealPlan, recipes as allRecipes, DAYS, needsStaple, defaultStaple, STAPLE_OPTIONS, STAPLE_LABEL } from "@/lib/recipes"
+import type { Staple } from "@/lib/recipes"
 
-type PlanState = Record<string, Record<MealType, Recipe | null>>
+type PlanState = Record<string, Record<MealType, PlanSlot>>
+type StaplePlan = Record<string, Partial<Record<"lunch" | "dinner", Staple | null>>>
+type ExtrasPlan = Record<string, Partial<Record<MealType, PlanSlot[]>>>
+
+function isCustom(slot: PlanSlot): slot is CustomMeal {
+  return !!slot && "isCustom" in slot
+}
+
+function slotStaple(slot: PlanSlot, day: string): Staple | null {
+  if (!slot) return null
+  if (isCustom(slot)) return defaultStaple(day)
+  return needsStaple(slot) ? defaultStaple(day) : null
+}
+
+function autoSuggestStaples(plan: PlanState): StaplePlan {
+  const result: StaplePlan = {}
+  for (const day of DAYS) {
+    result[day] = {}
+    for (const meal of ["lunch", "dinner"] as const) {
+      result[day][meal] = slotStaple(plan[day]?.[meal] ?? null, day)
+    }
+  }
+  return result
+}
 const MEAL_TYPES: MealType[] = ["breakfast", "lunch", "dinner"]
 const MEAL_EMOJI: Record<MealType, string> = { breakfast: "🌅", lunch: "☀️", dinner: "🌙" }
 function getMondayISO(): string {
@@ -33,8 +57,12 @@ function getWeekDates(): Record<string, Date> {
 
 export default function MealPlannerGrid() {
   const [plan, setPlan] = useState<PlanState>({})
+  const [staples, setStaples] = useState<StaplePlan>({})
+  const [extras, setExtras] = useState<ExtrasPlan>({})
   const [swapping, setSwapping] = useState<{ day: string; meal: MealType } | null>(null)
   const [search, setSearch] = useState("")
+  const [addingExtra, setAddingExtra] = useState<{ day: string; meal: MealType } | null>(null)
+  const [extraSearch, setExtraSearch] = useState("")
   const [hasManualSwaps, setHasManualSwaps] = useState(false)
   const [confirmRegen, setConfirmRegen] = useState(false)
   const [hydrated, setHydrated] = useState(false)
@@ -47,50 +75,104 @@ export default function MealPlannerGrid() {
     const raw = localStorage.getItem("bk-plan")
     if (raw) {
       try {
-        const { plan: saved, weekStart } = JSON.parse(raw)
+        const { plan: saved, staples: savedStaples, extras: savedExtras, weekStart } = JSON.parse(raw)
         if (weekStart === currentMonday) {
           setPlan(saved)
+          setStaples(savedStaples ?? autoSuggestStaples(saved))
+          setExtras(savedExtras ?? {})
         } else {
-          // New week — auto-regenerate silently
-          setPlan(autoSuggestMealPlan())
+          const newPlan = autoSuggestMealPlan()
+          setPlan(newPlan)
+          setStaples(autoSuggestStaples(newPlan))
         }
       } catch {
-        setPlan(autoSuggestMealPlan())
+        const newPlan = autoSuggestMealPlan()
+        setPlan(newPlan)
+        setStaples(autoSuggestStaples(newPlan))
       }
     } else {
-      setPlan(autoSuggestMealPlan())
+      const newPlan = autoSuggestMealPlan()
+      setPlan(newPlan)
+      setStaples(autoSuggestStaples(newPlan))
     }
     setHydrated(true)
   }, [])
 
-  // Persist plan + current week's Monday on every change
+  // Persist plan + staples + extras on every change
   useEffect(() => {
     if (hydrated && Object.keys(plan).length > 0) {
-      localStorage.setItem("bk-plan", JSON.stringify({ plan, weekStart: getMondayISO() }))
+      localStorage.setItem("bk-plan", JSON.stringify({ plan, staples, extras, weekStart: getMondayISO() }))
     }
-  }, [plan, hydrated])
+  }, [plan, staples, extras, hydrated])
 
   const generate = useCallback(() => {
     if (hasManualSwaps) {
       setConfirmRegen(true)
       return
     }
-    setPlan(autoSuggestMealPlan())
+    const newPlan = autoSuggestMealPlan()
+    setPlan(newPlan)
+    setStaples(autoSuggestStaples(newPlan))
     setSwapping(null)
   }, [hasManualSwaps])
 
-  function swap(day: string, meal: MealType, recipe: Recipe) {
+  function swap(day: string, meal: MealType, slot: PlanSlot) {
     setPlan((prev) => ({
       ...prev,
-      [day]: { ...prev[day], [meal]: recipe },
+      [day]: { ...prev[day], [meal]: slot },
     }))
+    if (meal === "lunch" || meal === "dinner") {
+      setStaples((prev) => ({
+        ...prev,
+        [day]: { ...prev[day], [meal]: slotStaple(slot, day) },
+      }))
+    }
     setHasManualSwaps(true)
     setSwapping(null)
     setSearch("")
   }
 
+  function cycleStaple(day: string, meal: "lunch" | "dinner") {
+    setStaples((prev) => {
+      const current = prev[day]?.[meal] ?? defaultStaple(day)
+      const idx = STAPLE_OPTIONS.indexOf(current)
+      const next = STAPLE_OPTIONS[(idx + 1) % STAPLE_OPTIONS.length]
+      return { ...prev, [day]: { ...prev[day], [meal]: next } }
+    })
+  }
+
+  function addExtra(day: string, meal: MealType, slot: PlanSlot) {
+    setExtras((prev) => ({
+      ...prev,
+      [day]: { ...prev[day], [meal]: [...(prev[day]?.[meal] ?? []), slot] },
+    }))
+    setAddingExtra(null)
+    setExtraSearch("")
+  }
+
+  function removeExtra(day: string, meal: MealType, idx: number) {
+    setExtras((prev) => {
+      const updated = (prev[day]?.[meal] ?? []).filter((_, i) => i !== idx)
+      return { ...prev, [day]: { ...prev[day], [meal]: updated } }
+    })
+  }
+
+  function addCustomExtra(day: string, meal: MealType) {
+    if (!extraSearch.trim()) return
+    addExtra(day, meal, { id: "custom-" + Date.now(), name: extraSearch.trim(), isCustom: true })
+  }
+
+  function addCustomMeal(day: string, meal: MealType) {
+    if (!search.trim()) return
+    const custom: CustomMeal = { id: "custom-" + Date.now(), name: search.trim(), isCustom: true }
+    swap(day, meal, custom)
+  }
+
   function confirmRegenerate() {
-    setPlan(autoSuggestMealPlan())
+    const newPlan = autoSuggestMealPlan()
+    setPlan(newPlan)
+    setStaples(autoSuggestStaples(newPlan))
+    setExtras({})
     setHasManualSwaps(false)
     setConfirmRegen(false)
     setSwapping(null)
@@ -108,6 +190,14 @@ export default function MealPlannerGrid() {
           r.tags.some((t) => t.includes(search.toLowerCase()))
       )
     : swapPool
+
+  const filteredExtras = extraSearch
+    ? allRecipes.filter(
+        (r) =>
+          r.name.toLowerCase().includes(extraSearch.toLowerCase()) ||
+          r.tags.some((t) => t.includes(extraSearch.toLowerCase()))
+      )
+    : allRecipes
 
   const hasPlan = Object.keys(plan).length > 0
 
@@ -199,28 +289,41 @@ export default function MealPlannerGrid() {
                     }`}
                   >
                     {recipe ? (
-                      <div className="h-full flex flex-col justify-between">
-                        <Link
-                          href={`/recipe/${recipe.id}`}
-                          className="text-[11px] font-medium text-gray-800 hover:text-amber-700 line-clamp-2 leading-tight"
-                        >
-                          {recipe.name}
-                        </Link>
-                        {/* #3: prep badge */}
-                        <div className="flex items-center justify-between mt-1">
-                          <div className="flex items-center gap-1">
-                            <span className="text-[10px] text-gray-400">⏱{recipe.cookTime}m</span>
-                            {recipe.prepNote && (
-                              <span title={`Prep needed: ${recipe.prepNote}`} className="text-sky-400 cursor-help leading-none">⏳</span>
-                            )}
+                      <div className="h-full flex flex-col">
+                        {/* Primary dish */}
+                        {isCustom(recipe) ? (
+                          <span className="text-[11px] font-medium text-gray-800 line-clamp-1 leading-tight">{recipe.name}</span>
+                        ) : (
+                          <Link href={`/recipe/${recipe.id}?from=planner`} className="text-[11px] font-medium text-gray-800 hover:text-amber-700 line-clamp-1 leading-tight">
+                            {recipe.name}
+                          </Link>
+                        )}
+                        {/* Extra dishes */}
+                        {(extras[day]?.[meal] ?? []).map((extra, i) => (
+                          <div key={i} className="flex items-center gap-0.5 mt-0.5">
+                            <span className="text-[10px] text-gray-500 truncate flex-1 leading-tight">
+                              + {isCustom(extra) ? extra.name : (extra as Recipe).name}
+                            </span>
+                            <button onClick={() => removeExtra(day, meal, i)} className="text-[10px] text-gray-300 hover:text-red-400 flex-shrink-0">×</button>
                           </div>
-                          <button
-                            onClick={() => setSwapping(isSwapping ? null : { day, meal })}
-                            className="text-[10px] text-amber-500 hover:text-amber-700 font-medium"
-                            title="Swap recipe"
-                          >
-                            ✎
-                          </button>
+                        ))}
+                        {/* Bottom row */}
+                        <div className="flex items-center justify-between mt-auto pt-1">
+                          <div className="flex items-center gap-1 flex-wrap">
+                            {!isCustom(recipe) && (
+                              <>
+                                <span className="text-[10px] text-gray-400">⏱{recipe.cookTime}m</span>
+                                {recipe.prepNote && <span title={`Prep needed: ${recipe.prepNote}`} className="text-sky-400 cursor-help leading-none">⏳</span>}
+                              </>
+                            )}
+                            {(meal === "lunch" || meal === "dinner") && (isCustom(recipe) || needsStaple(recipe as Recipe) || staples[day]?.[meal as "lunch" | "dinner"] != null) && (
+                              <button onClick={() => cycleStaple(day, meal as "lunch" | "dinner")} className="text-[10px] text-emerald-600 hover:text-emerald-800 font-medium leading-none" title="Click to change staple">
+                                {STAPLE_LABEL[staples[day]?.[meal as "lunch" | "dinner"] ?? defaultStaple(day)]} ›
+                              </button>
+                            )}
+                            <button onClick={() => setAddingExtra({ day, meal })} className="text-[10px] text-amber-400 hover:text-amber-600 font-medium leading-none">+ dish</button>
+                          </div>
+                          <button onClick={() => setSwapping(isSwapping ? null : { day, meal })} className="text-[10px] text-amber-500 hover:text-amber-700 font-medium" title="Swap recipe">✎</button>
                         </div>
                       </div>
                     ) : (
@@ -275,17 +378,33 @@ export default function MealPlannerGrid() {
                   <div className="flex-1 min-w-0">
                     {recipe ? (
                       <>
-                        <Link
-                          href={`/recipe/${recipe.id}`}
-                          className="text-sm font-medium text-gray-800 hover:text-amber-700 line-clamp-1 block"
-                        >
-                          {recipe.name}
-                        </Link>
-                        <div className="flex items-center gap-2 mt-0.5">
-                          <span className="text-[10px] text-gray-400">⏱{recipe.cookTime}m</span>
-                          {recipe.prepNote && (
-                            <span title={recipe.prepNote} className="text-[10px] text-sky-500">⏳ Prep</span>
+                        {isCustom(recipe) ? (
+                          <span className="text-sm font-medium text-gray-800 line-clamp-1 block">{recipe.name}</span>
+                        ) : (
+                          <Link href={`/recipe/${recipe.id}?from=planner`} className="text-sm font-medium text-gray-800 hover:text-amber-700 line-clamp-1 block">
+                            {recipe.name}
+                          </Link>
+                        )}
+                        {/* Extra dishes */}
+                        {(extras[day]?.[meal] ?? []).map((extra, i) => (
+                          <div key={i} className="flex items-center gap-1 mt-0.5">
+                            <span className="text-xs text-gray-500 truncate flex-1">+ {isCustom(extra) ? extra.name : (extra as Recipe).name}</span>
+                            <button onClick={() => removeExtra(day, meal, i)} className="text-xs text-gray-300 hover:text-red-400 flex-shrink-0">×</button>
+                          </div>
+                        ))}
+                        <div className="flex items-center gap-2 mt-0.5 flex-wrap">
+                          {!isCustom(recipe) && (
+                            <>
+                              <span className="text-[10px] text-gray-400">⏱{recipe.cookTime}m</span>
+                              {recipe.prepNote && <span title={recipe.prepNote} className="text-[10px] text-sky-500">⏳ Prep</span>}
+                            </>
                           )}
+                          {(meal === "lunch" || meal === "dinner") && (isCustom(recipe) || needsStaple(recipe as Recipe) || staples[day]?.[meal as "lunch" | "dinner"] != null) && (
+                            <button onClick={() => cycleStaple(day, meal as "lunch" | "dinner")} className="text-[10px] text-emerald-600 hover:text-emerald-800 font-medium" title="Tap to change">
+                              {STAPLE_LABEL[staples[day]?.[meal as "lunch" | "dinner"] ?? defaultStaple(day)]} ›
+                            </button>
+                          )}
+                          <button onClick={() => setAddingExtra({ day, meal })} className="text-[10px] text-amber-400 hover:text-amber-600 font-medium">+ dish</button>
                         </div>
                       </>
                     ) : (
@@ -337,6 +456,82 @@ export default function MealPlannerGrid() {
             ))}
             {filteredRecipes.length === 0 && (
               <p className="col-span-3 text-sm text-gray-400 text-center py-4">No recipes found.</p>
+            )}
+          </div>
+          <div className="mt-3 pt-3 border-t border-gray-100">
+            {search.trim() ? (
+              <button
+                onClick={() => addCustomMeal(swapping.day, swapping.meal)}
+                className="w-full text-sm font-medium text-amber-700 hover:text-amber-900 bg-amber-50 hover:bg-amber-100 border border-amber-200 rounded-xl px-3 py-2.5 transition-colors text-left"
+              >
+                + Add &ldquo;{search.trim()}&rdquo; as custom meal
+              </button>
+            ) : (
+              <p className="text-xs text-gray-400 text-center py-1">Type a name above to add a custom meal</p>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Extra dish picker */}
+      {addingExtra && (
+        <div className="bg-white rounded-2xl border border-amber-200 p-4 shadow-md">
+          <div className="flex items-center justify-between mb-3">
+            <p className="font-semibold text-gray-800 text-sm">
+              Add a dish to <span className="text-amber-600">{addingExtra.day} — {addingExtra.meal}</span>
+            </p>
+            <button onClick={() => { setAddingExtra(null); setExtraSearch("") }} className="text-gray-400 hover:text-gray-700 text-lg leading-none">×</button>
+          </div>
+          {(addingExtra.meal === "lunch" || addingExtra.meal === "dinner") && (
+            <div className="flex flex-wrap gap-2 mb-3">
+              {STAPLE_OPTIONS.map((s) => (
+                <button
+                  key={s}
+                  onClick={() => {
+                    setStaples((prev) => ({ ...prev, [addingExtra.day]: { ...prev[addingExtra.day], [addingExtra.meal]: s } }))
+                    setAddingExtra(null)
+                    setExtraSearch("")
+                  }}
+                  className="text-xs font-semibold px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-700 hover:bg-emerald-100 border border-emerald-200 transition-colors"
+                >
+                  {STAPLE_LABEL[s]}
+                </button>
+              ))}
+            </div>
+          )}
+          <input
+            type="text"
+            placeholder="Search or type a dish name..."
+            value={extraSearch}
+            onChange={(e) => setExtraSearch(e.target.value)}
+            className="w-full px-3 py-2 rounded-lg border border-gray-200 text-sm mb-3 focus:border-amber-400 focus:outline-none"
+            autoFocus
+          />
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 max-h-52 overflow-y-auto pr-1">
+            {filteredExtras.map((r) => (
+              <button
+                key={r.id}
+                onClick={() => addExtra(addingExtra.day, addingExtra.meal, r)}
+                className="text-left p-2.5 rounded-xl border border-gray-100 hover:border-amber-300 hover:bg-amber-50 transition-colors"
+              >
+                <p className="text-xs font-semibold text-gray-800 line-clamp-1">{r.name}</p>
+                <p className="text-[10px] text-gray-400 mt-0.5">⏱{r.cookTime}m · {r.region}</p>
+              </button>
+            ))}
+            {filteredExtras.length === 0 && (
+              <p className="col-span-3 text-sm text-gray-400 text-center py-4">No recipes found.</p>
+            )}
+          </div>
+          <div className="mt-3 pt-3 border-t border-gray-100">
+            {extraSearch.trim() ? (
+              <button
+                onClick={() => addCustomExtra(addingExtra.day, addingExtra.meal)}
+                className="w-full text-sm font-medium text-amber-700 hover:text-amber-900 bg-amber-50 hover:bg-amber-100 border border-amber-200 rounded-xl px-3 py-2.5 transition-colors text-left"
+              >
+                + Add &ldquo;{extraSearch.trim()}&rdquo; as custom dish
+              </button>
+            ) : (
+              <p className="text-xs text-gray-400 text-center py-1">Type a name above to add a custom dish</p>
             )}
           </div>
         </div>
