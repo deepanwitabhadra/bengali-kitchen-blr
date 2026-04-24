@@ -1,8 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## Getting Started
 
-A Bengali recipe web app built for Bengalis living in Bangalore — helping you cook authentic home food with ingredients you can actually find locally.
+A Bengali recipe web app built for Bengalis living in Bangalore — helping you cook authentic home food with ingredients you can actually find locally. Check it out on https://bengali-kitchen-blr.vercel.app/
 
 ## What It Does
 
