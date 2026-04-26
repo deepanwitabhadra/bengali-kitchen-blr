@@ -41,11 +41,14 @@ function getMondayISO(): string {
   return monday.toISOString().split("T")[0]
 }
 
-function getWeekDates(): Record<string, Date> {
-  const dow = new Date().getDay()
-  const monday = new Date()
-  monday.setDate(monday.getDate() - (dow === 0 ? 6 : dow - 1))
-  monday.setHours(0, 0, 0, 0)
+function offsetMonday(mondayISO: string, weeks: number): string {
+  const d = new Date(mondayISO + "T00:00:00")
+  d.setDate(d.getDate() + weeks * 7)
+  return d.toISOString().split("T")[0]
+}
+
+function getWeekDatesFrom(mondayISO: string): Record<string, Date> {
+  const monday = new Date(mondayISO + "T00:00:00")
   const map: Record<string, Date> = {}
   DAYS.forEach((day, i) => {
     const d = new Date(monday)
@@ -53,6 +56,18 @@ function getWeekDates(): Record<string, Date> {
     map[day] = d
   })
   return map
+}
+
+function formatWeekRange(mondayISO: string): string {
+  const monday = new Date(mondayISO + "T00:00:00")
+  const sunday = new Date(monday)
+  sunday.setDate(monday.getDate() + 6)
+  const opts: Intl.DateTimeFormatOptions = { day: "numeric", month: "short" }
+  return `${monday.toLocaleDateString("en-IN", opts)} – ${sunday.toLocaleDateString("en-IN", opts)}`
+}
+
+function weekKey(mondayISO: string): string {
+  return `bk-plan-${mondayISO}`
 }
 
 export default function MealPlannerGrid() {
@@ -67,43 +82,49 @@ export default function MealPlannerGrid() {
   const [confirmRegen, setConfirmRegen] = useState(false)
   const [hydrated, setHydrated] = useState(false)
   const [weekDates, setWeekDates] = useState<Record<string, Date>>({})
+  const [selectedMonday, setSelectedMonday] = useState<string>("")
 
-  // Load from localStorage; auto-regen if saved plan is from a previous week
+  // On mount: anchor to current week
   useEffect(() => {
-    const currentMonday = getMondayISO()
-    setWeekDates(getWeekDates())
-    const raw = localStorage.getItem("bk-plan")
+    setSelectedMonday(getMondayISO())
+  }, [])
+
+  // Load week whenever selectedMonday changes
+  useEffect(() => {
+    if (!selectedMonday) return
+    setHydrated(false)
+    setWeekDates(getWeekDatesFrom(selectedMonday))
+    const raw = localStorage.getItem(weekKey(selectedMonday))
     if (raw) {
       try {
-        const { plan: saved, staples: savedStaples, extras: savedExtras, weekStart } = JSON.parse(raw)
-        if (weekStart === currentMonday) {
-          setPlan(saved)
-          setStaples(savedStaples ?? autoSuggestStaples(saved))
-          setExtras(savedExtras ?? {})
-        } else {
-          const newPlan = autoSuggestMealPlan()
-          setPlan(newPlan)
-          setStaples(autoSuggestStaples(newPlan))
-        }
+        const { plan: saved, staples: savedStaples, extras: savedExtras } = JSON.parse(raw)
+        setPlan(saved)
+        setStaples(savedStaples ?? autoSuggestStaples(saved))
+        setExtras(savedExtras ?? {})
       } catch {
         const newPlan = autoSuggestMealPlan()
         setPlan(newPlan)
         setStaples(autoSuggestStaples(newPlan))
+        setExtras({})
       }
     } else {
       const newPlan = autoSuggestMealPlan()
       setPlan(newPlan)
       setStaples(autoSuggestStaples(newPlan))
+      setExtras({})
     }
+    setSwapping(null)
+    setAddingExtra(null)
+    setHasManualSwaps(false)
     setHydrated(true)
-  }, [])
+  }, [selectedMonday])
 
-  // Persist plan + staples + extras on every change
+  // Persist plan + staples + extras for the selected week
   useEffect(() => {
-    if (hydrated && Object.keys(plan).length > 0) {
-      localStorage.setItem("bk-plan", JSON.stringify({ plan, staples, extras, weekStart: getMondayISO() }))
+    if (hydrated && selectedMonday && Object.keys(plan).length > 0) {
+      localStorage.setItem(weekKey(selectedMonday), JSON.stringify({ plan, staples, extras, weekStart: selectedMonday }))
     }
-  }, [plan, staples, extras, hydrated])
+  }, [plan, staples, extras, hydrated, selectedMonday])
 
   const generate = useCallback(() => {
     if (hasManualSwaps) {
@@ -178,6 +199,16 @@ export default function MealPlannerGrid() {
     setSwapping(null)
   }
 
+  function navigate(direction: 1 | -1) {
+    if (!selectedMonday) return
+    // Save current week before navigating
+    if (Object.keys(plan).length > 0) {
+      localStorage.setItem(weekKey(selectedMonday), JSON.stringify({ plan, staples, extras, weekStart: selectedMonday }))
+    }
+    setSelectedMonday(offsetMonday(selectedMonday, direction))
+    setConfirmRegen(false)
+  }
+
   // #2: filter swap pool by the slot's mealType
   const swapPool = swapping
     ? allRecipes.filter((r) => r.mealType.includes(swapping.meal))
@@ -234,6 +265,34 @@ export default function MealPlannerGrid() {
         >
           ✨ Re-generate
         </button>
+        {selectedMonday && (
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => navigate(-1)}
+              className="w-8 h-8 flex items-center justify-center rounded-full bg-white border border-gray-200 hover:border-amber-400 text-gray-600 hover:text-amber-700 transition-colors text-sm"
+              title="Previous week"
+            >
+              ←
+            </button>
+            <div className="text-center">
+              {selectedMonday === getMondayISO() ? (
+                <p className="text-xs font-semibold text-amber-600">This week</p>
+              ) : (
+                <p className="text-xs font-semibold text-gray-500">
+                  {selectedMonday < getMondayISO() ? "Past" : "Future"}
+                </p>
+              )}
+              <p className="text-[11px] text-gray-400">{formatWeekRange(selectedMonday)}</p>
+            </div>
+            <button
+              onClick={() => navigate(1)}
+              className="w-8 h-8 flex items-center justify-center rounded-full bg-white border border-gray-200 hover:border-amber-400 text-gray-600 hover:text-amber-700 transition-colors text-sm"
+              title="Next week"
+            >
+              →
+            </button>
+          </div>
+        )}
       </div>
 
       {/* #6: Re-generate confirmation banner */}

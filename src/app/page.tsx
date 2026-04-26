@@ -11,7 +11,7 @@ export default function Home() {
           <h1 className="text-2xl font-bold text-gray-900">Weekly Meal Planner</h1>
           <p className="text-gray-500 mt-1 text-sm max-w-lg">
             Auto-generate a Bengali meal plan for your week. Weekdays get quick recipes, weekends get the good stuff.
-            Swap any meal, then generate a combined shopping list.
+            Swap any meal, add extras, and plan as far ahead as you like.
           </p>
         </div>
         <div className="flex gap-3 text-xs text-gray-500">
