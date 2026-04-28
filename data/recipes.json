@@ -4797,5 +4797,473 @@
       "Let sit, heat off, for 10 min. The nigella flavour infuses beautifully.",
       "Finish with ghee and coriander. Serve with rice."
     ]
+  },
+  {
+    "id": "kolkata-biryani",
+    "name": "Kolkata Biryani",
+    "bengali": "কলকাতার বিরিয়ানি",
+    "region": "Kolkata",
+    "cookTime": 90,
+    "tags": [
+      "biryani",
+      "weekend",
+      "mutton",
+      "classic",
+      "festive"
+    ],
+    "category": "rice",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "hard",
+    "description": "The Awadhi-Bengali hybrid — fragrant biryani where the potato is as important as the meat. No food colouring, no overthinking. Just kewra, saffron, and patience.",
+    "ingredients": [
+      {
+        "name": "Basmati rice (aged, long-grain)",
+        "amount": "2 cups",
+        "bangaloreSubstitute": "Aged Basmati from Domlur SPAR or Namdhari's. Avoid supermarket house brands — the grain length matters here.",
+        "orderLinks": {
+          "blinkit": "aged basmati rice",
+          "bigbasket": "daawat basmati rice",
+          "swiggy": "basmati rice"
+        }
+      },
+      {
+        "name": "Mutton (bone-in, shoulder cut)",
+        "amount": "500g",
+        "bangaloreSubstitute": "Halal mutton from Shivajinagar market or Fresh-to-Home delivery. Ask for shoulder — it holds up to slow cooking.",
+        "orderLinks": {
+          "blinkit": "mutton curry cut",
+          "bigbasket": "mutton shoulder",
+          "swiggy": "mutton"
+        }
+      },
+      {
+        "name": "Potato (medium, whole)",
+        "amount": "3, peeled and lightly fried",
+        "orderLinks": {
+          "blinkit": "potato",
+          "bigbasket": "potato"
+        }
+      },
+      {
+        "name": "Kewra water",
+        "amount": "1 tbsp",
+        "bangaloreSubstitute": "Nature's Basket or Iyengar Bakery area shops stock Ruh Kewra. Don't skip — it's what makes Kolkata biryani smell like Kolkata biryani.",
+        "orderLinks": {
+          "blinkit": "kewra water",
+          "bigbasket": "kewra water essence"
+        }
+      },
+      {
+        "name": "Saffron",
+        "amount": "a generous pinch, soaked in warm milk",
+        "bangaloreSubstitute": "Namdhari's or Nuts n Spices on Residency Road. Buy Kashmiri — Iranian saffron at those prices is usually fake.",
+        "orderLinks": {
+          "blinkit": "saffron kesar",
+          "bigbasket": "saffron strands"
+        }
+      },
+      {
+        "name": "Whole spices (bay leaf, cloves, cardamom, cinnamon, star anise)",
+        "amount": "as needed",
+        "orderLinks": {
+          "blinkit": "whole spices",
+          "bigbasket": "whole garam masala"
+        }
+      },
+      {
+        "name": "Yogurt",
+        "amount": "½ cup, for marinating",
+        "orderLinks": {
+          "blinkit": "curd",
+          "bigbasket": "curd dahi"
+        }
+      },
+      {
+        "name": "Ghee",
+        "amount": "4 tbsp",
+        "orderLinks": {
+          "blinkit": "ghee",
+          "bigbasket": "cow ghee"
+        }
+      },
+      {
+        "name": "Rose water",
+        "amount": "1 tsp",
+        "orderLinks": {
+          "blinkit": "rose water",
+          "bigbasket": "rose water"
+        }
+      }
+    ],
+    "steps": [
+      "Marinate mutton in yogurt, ginger-garlic paste, fried onion, whole spices, salt, and a pinch of saffron milk. At least 2 hours, overnight is better.",
+      "Parboil basmati in heavily salted water with whole spices until 70% cooked. Drain immediately.",
+      "In a heavy-bottomed pot, layer: mutton at the bottom, rice in the middle, fried potatoes tucked in.",
+      "Drizzle kewra water, rose water, saffron milk, and ghee over the top layer of rice.",
+      "Seal with a tight lid or dough. Cook dum on low heat for 35–40 min.",
+      "Rest for 10 minutes before opening. Mix gently from the bottom when serving."
+    ],
+    "prepTime": 30,
+    "prepNote": "Marinate mutton overnight if possible. Fried onions (beresta) can be made a day ahead."
+  },
+  {
+    "id": "dhokar-dalna",
+    "name": "Dhokar Dalna",
+    "bengali": "ধোকার ডালনা",
+    "region": "Kolkata",
+    "cookTime": 50,
+    "tags": [
+      "veg",
+      "weekend",
+      "lentil",
+      "classic",
+      "niramish"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "medium",
+    "description": "Fried lentil cakes in a spiced potato gravy. The vegetarian showstopper at any Bengali thali — takes effort, rewards generously.",
+    "ingredients": [
+      {
+        "name": "Chana dal (split chickpeas)",
+        "amount": "1 cup, soaked 4 hours",
+        "orderLinks": {
+          "blinkit": "chana dal",
+          "bigbasket": "chana dal split chickpeas"
+        }
+      },
+      {
+        "name": "Coconut, fresh grated",
+        "amount": "3 tbsp",
+        "bangaloreSubstitute": "Fresh coconut from any Bangalore vegetable vendor or KR Market. Frozen grated coconut from BigBasket also works.",
+        "orderLinks": {
+          "blinkit": "grated coconut",
+          "bigbasket": "fresh coconut"
+        }
+      },
+      {
+        "name": "Asafoetida (hing)",
+        "amount": "¼ tsp",
+        "bangaloreSubstitute": "Compounded hing widely available everywhere. For the real Kashmiri hing (resin form), try Sadananda stores in Malleshwaram.",
+        "orderLinks": {
+          "blinkit": "hing asafoetida",
+          "bigbasket": "hing powder"
+        }
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "for frying + 2 tbsp for gravy",
+        "bangaloreSubstitute": "Nature's Basket, Namdhari's, or Amazon Fresh deliver Kachi Ghani mustard oil.",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "kachi ghani mustard oil"
+        }
+      },
+      {
+        "name": "Potato (medium)",
+        "amount": "2, cut in wedges",
+        "orderLinks": {
+          "blinkit": "potato",
+          "bigbasket": "potato"
+        }
+      },
+      {
+        "name": "Tomato",
+        "amount": "1 medium, pureed",
+        "orderLinks": {
+          "blinkit": "tomato",
+          "bigbasket": "tomato"
+        }
+      },
+      {
+        "name": "Cumin, bay leaf, dried red chilli",
+        "amount": "for tempering"
+      },
+      {
+        "name": "Turmeric, cumin powder, coriander powder",
+        "amount": "1 tsp each"
+      }
+    ],
+    "steps": [
+      "Grind soaked chana dal coarsely — no water. Mix with grated coconut, hing, salt, and a pinch of turmeric.",
+      "Heat a greased pan and press dal mixture into a 1cm-thick slab. Cook covered on low for 10 min, flip, cook another 10 min.",
+      "Cool, cut into diamond shapes. Shallow fry in mustard oil until golden on both sides. Set aside.",
+      "In the same pan, temper with cumin seeds, bay leaf, dried chilli. Add potato wedges, fry 3 min.",
+      "Add tomato puree, turmeric, cumin and coriander powder. Cook masala until oil separates.",
+      "Add 1.5 cups water, bring to boil, cook potatoes until soft.",
+      "Gently add fried dhoka pieces. Simmer 5 min — don't over-stir or they break.",
+      "Finish with ghee and garam masala. Serve with luchi or rice."
+    ],
+    "prepTime": 20,
+    "prepNote": "Soak chana dal 4 hours minimum. The dal-cake slab can be made a day ahead and refrigerated."
+  },
+  {
+    "id": "koraishutir-kochuri",
+    "name": "Koraishutir Kochuri",
+    "bengali": "কড়াইশুটির কচুরি",
+    "region": "Kolkata",
+    "cookTime": 40,
+    "tags": [
+      "breakfast",
+      "snack",
+      "veg",
+      "winter",
+      "weekend"
+    ],
+    "category": "bread",
+    "mealType": [
+      "breakfast",
+      "lunch"
+    ],
+    "isVeg": true,
+    "difficulty": "medium",
+    "description": "Kolkata's winter morning in edible form — flaky fried bread stuffed with spiced green pea paste. Peak season is November to February when fresh peas arrive.",
+    "ingredients": [
+      {
+        "name": "Fresh green peas (shelled)",
+        "amount": "1 cup",
+        "bangaloreSubstitute": "Fresh peas available at Russell Market and Jayanagar 4th Block vegetable market Nov–Feb. Off-season: frozen peas from BigBasket work almost as well — thaw and pat dry first.",
+        "orderLinks": {
+          "blinkit": "green peas fresh",
+          "bigbasket": "fresh green peas",
+          "swiggy": "green peas"
+        }
+      },
+      {
+        "name": "Maida (all-purpose flour)",
+        "amount": "2 cups",
+        "orderLinks": {
+          "blinkit": "maida",
+          "bigbasket": "maida all purpose flour"
+        }
+      },
+      {
+        "name": "Ginger, green chilli (for filling)",
+        "amount": "1 inch ginger + 2 chillies"
+      },
+      {
+        "name": "Jeera (cumin seeds)",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Hing (asafoetida)",
+        "amount": "a pinch",
+        "orderLinks": {
+          "blinkit": "hing",
+          "bigbasket": "hing asafoetida"
+        }
+      },
+      {
+        "name": "Oil for deep frying",
+        "amount": "as needed",
+        "orderLinks": {
+          "blinkit": "refined oil",
+          "bigbasket": "sunflower oil"
+        }
+      },
+      {
+        "name": "Salt and sugar",
+        "amount": "to taste"
+      }
+    ],
+    "steps": [
+      "Blanch peas 2 minutes, drain. Coarsely grind with ginger and chilli — keep it textured, not a paste.",
+      "Temper oil with cumin and hing. Add pea mixture, salt, a pinch of sugar. Cook stirring until dry, about 8 min. Cool completely.",
+      "Knead maida with a pinch of salt, 2 tsp oil, and warm water into a firm dough. Rest 20 min.",
+      "Divide dough into golf-ball portions. Flatten, place a tbsp of filling in centre, seal tightly.",
+      "Roll gently into 10cm circles. Don't press too hard or filling escapes.",
+      "Deep fry on medium heat, pressing down gently so they puff. Fry until pale golden — about 2 min per side.",
+      "Drain and serve immediately with aloo dum or tomato khejur chutney."
+    ],
+    "prepTime": 20,
+    "prepNote": "Filling must be completely cool before stuffing or the dough tears. Make filling a day ahead if needed."
+  },
+  {
+    "id": "macher-matha-dal",
+    "name": "Macher Matha Diye Dal",
+    "bengali": "মাছের মাথা দিয়ে ডাল",
+    "region": "Kolkata",
+    "cookTime": 35,
+    "tags": [
+      "fish",
+      "dal",
+      "weekday-friendly",
+      "comfort",
+      "classic"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": false,
+    "difficulty": "easy",
+    "description": "Moong dal cooked with a fried fish head — the fish head melts into the dal and gives it a depth you can't fake. Bengali home cooking at its most honest.",
+    "ingredients": [
+      {
+        "name": "Rohu or Katla fish head",
+        "amount": "1 large, split in half",
+        "bangaloreSubstitute": "Rohu and Katla heads from KR Market fish section or Domlur fish market. Ask the vendor to split it for you. ₹30–50 per head. Fresh-to-Home also delivers cleaned fish heads.",
+        "orderLinks": {
+          "blinkit": "rohu fish",
+          "bigbasket": "rohu fish",
+          "swiggy": "fresh fish"
+        }
+      },
+      {
+        "name": "Moong dal (split yellow)",
+        "amount": "1 cup",
+        "orderLinks": {
+          "blinkit": "moong dal",
+          "bigbasket": "moong dal yellow split"
+        }
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "3 tbsp",
+        "bangaloreSubstitute": "Kachi Ghani mustard oil from Nature's Basket, Namdhari's, or Amazon Fresh.",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "kachi ghani mustard oil"
+        }
+      },
+      {
+        "name": "Turmeric powder",
+        "amount": "1 tsp total"
+      },
+      {
+        "name": "Kalo jeere (nigella seeds)",
+        "amount": "½ tsp",
+        "bangaloreSubstitute": "Nature's Basket stocks it. Substitute with cumin seeds if unavailable — flavour changes but it works.",
+        "orderLinks": {
+          "blinkit": "nigella seeds kalonji",
+          "bigbasket": "kalonji nigella seeds"
+        }
+      },
+      {
+        "name": "Green chillies",
+        "amount": "3, slit"
+      },
+      {
+        "name": "Ginger paste",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "to taste"
+      }
+    ],
+    "steps": [
+      "Dry roast moong dal in a pan until lightly golden and fragrant. Boil with turmeric and salt until soft.",
+      "Marinate fish head with turmeric and salt.",
+      "Heat mustard oil until smoking. Fry fish head pieces until brown and crisp on all sides. Remove and set aside.",
+      "In the same oil, crackle kalo jeere. Add ginger paste and green chillies. Cook 1 minute.",
+      "Add cooked dal, stir to combine. Add water if too thick — consistency should be slightly runny.",
+      "Add fried fish head pieces. Simmer covered on low heat 10 minutes.",
+      "The fish head will soften and its fat will enrich the dal. Stir gently before serving.",
+      "Serve with steamed rice. This dal improves as it sits."
+    ],
+    "prepTime": 10,
+    "prepNote": "Dry roasting the moong dal before boiling is the key step — adds a nuttiness that makes this dish."
+  },
+  {
+    "id": "kanchkolar-kofta",
+    "name": "Kanchkolar Kofta",
+    "bengali": "কাঁচকলার কফতা",
+    "region": "Kolkata",
+    "cookTime": 45,
+    "tags": [
+      "veg",
+      "weekend",
+      "niramish",
+      "kofta",
+      "classic"
+    ],
+    "category": "curry",
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "isVeg": true,
+    "difficulty": "medium",
+    "description": "Raw banana koftas in a ginger-tomato gravy — this is the Bengali answer to meat-free weekdays. The koftas are earthy and filling in a way that makes you forget there's no protein.",
+    "ingredients": [
+      {
+        "name": "Raw banana (kanchkola / kacha kela)",
+        "amount": "3 medium",
+        "bangaloreSubstitute": "Raw bananas are widely available at Bangalore vegetable markets — no substitute needed. Look for firm, completely green ones at Jayanagar 4th Block or your local sabziwala. Avoid any with yellow tinge.",
+        "orderLinks": {
+          "blinkit": "raw banana green banana",
+          "bigbasket": "raw banana kachcha kela"
+        }
+      },
+      {
+        "name": "Potatoes (boiled)",
+        "amount": "1 medium",
+        "orderLinks": {
+          "blinkit": "potato",
+          "bigbasket": "potato"
+        }
+      },
+      {
+        "name": "Mustard oil",
+        "amount": "for frying koftas + 2 tbsp for gravy",
+        "bangaloreSubstitute": "Kachi Ghani mustard oil from Nature's Basket or Namdhari's.",
+        "orderLinks": {
+          "blinkit": "mustard oil",
+          "bigbasket": "kachi ghani mustard oil"
+        }
+      },
+      {
+        "name": "Fresh coconut, grated",
+        "amount": "2 tbsp (for kofta mix)",
+        "bangaloreSubstitute": "Fresh coconut from any Bangalore vegetable vendor. Frozen grated coconut from BigBasket also works well.",
+        "orderLinks": {
+          "blinkit": "grated coconut",
+          "bigbasket": "fresh coconut grated"
+        }
+      },
+      {
+        "name": "Ginger paste",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Tomato (pureed)",
+        "amount": "2 medium"
+      },
+      {
+        "name": "Cumin seeds, bay leaf",
+        "amount": "for tempering"
+      },
+      {
+        "name": "Garam masala, turmeric, cumin powder",
+        "amount": "1 tsp each"
+      },
+      {
+        "name": "Salt and sugar",
+        "amount": "to taste"
+      }
+    ],
+    "steps": [
+      "Boil raw bananas with skin in salted water until tender (~15 min). Peel while warm and mash well.",
+      "Mix mashed banana with mashed potato, grated coconut, ginger, salt, a pinch of garam masala, and a little sugar.",
+      "Shape into smooth oval koftas. If mix is sticky, wet your hands.",
+      "Deep fry koftas in mustard oil on medium heat until golden brown all over. Drain and set aside.",
+      "For gravy: temper oil with cumin and bay leaf. Add ginger paste, cook 1 minute.",
+      "Add tomato puree, turmeric, cumin powder. Cook until oil separates, about 8 min.",
+      "Add 1 cup water, salt, pinch of sugar. Bring to a simmer.",
+      "Add koftas just before serving — don't boil them in the gravy or they break. Just a 2-minute warm through.",
+      "Finish with garam masala and serve with rice or luchi."
+    ],
+    "prepTime": 20,
+    "prepNote": "Koftas can be fried ahead and stored. Add to gravy only at serving time."
   }
 ]

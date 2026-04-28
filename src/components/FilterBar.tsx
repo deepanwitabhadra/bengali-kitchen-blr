@@ -4,12 +4,6 @@ import { useState } from "react"
 import type { Recipe, Category } from "@/types/recipe"
 import { filterRecipes } from "@/lib/recipes"
 
-const TIME_FILTERS = [
-  { label: "Any time", value: undefined },
-  { label: "≤ 30 min", value: 30 },
-  { label: "≤ 45 min", value: 45 },
-]
-
 const CATEGORY_FILTERS: { label: string; value: Category | undefined }[] = [
   { label: "All dishes", value: undefined },
   { label: "Curries", value: "curry" },
@@ -24,14 +18,12 @@ interface FilterBarProps {
 }
 
 export default function FilterBar({ onFilter }: FilterBarProps) {
-  const [maxTime, setMaxTime] = useState<number | undefined>(undefined)
   const [category, setCategory] = useState<Category | undefined>(undefined)
   const [isVeg, setIsVeg] = useState<boolean | undefined>(undefined)
   const [search, setSearch] = useState("")
 
-  function apply(overrides: Partial<{ maxTime: number | undefined; category: Category | undefined; isVeg: boolean | undefined; search: string }>) {
+  function apply(overrides: Partial<{ category: Category | undefined; isVeg: boolean | undefined; search: string }>) {
     const opts = {
-      maxCookTime: "maxTime" in overrides ? overrides.maxTime : maxTime,
       category: "category" in overrides ? overrides.category : category,
       isVeg: "isVeg" in overrides ? overrides.isVeg : isVeg,
       search: "search" in overrides ? overrides.search : search,
@@ -66,10 +58,6 @@ export default function FilterBar({ onFilter }: FilterBarProps) {
       />
 
       <div className="flex flex-wrap gap-2 items-center">
-        <span className="text-xs font-semibold text-gray-400 uppercase tracking-wide mr-1">Time</span>
-        {TIME_FILTERS.map((f) =>
-          chip(f.label, maxTime === f.value, () => { setMaxTime(f.value); apply({ maxTime: f.value }) })
-        )}
         {chip(isVeg === true ? "✓ Veg only" : "Veg only", isVeg === true, () => {
           const next = isVeg === true ? undefined : true
           setIsVeg(next)

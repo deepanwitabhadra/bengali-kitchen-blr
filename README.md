@@ -1,6 +1,8 @@
-## Getting Started
+## Bengali Kitchen BLR
 
-A Bengali recipe web app built for Bengalis living in Bangalore — helping you cook authentic home food with ingredients you can actually find locally. Check it out on https://bengali-kitchen-blr.vercel.app/
+A Bengali recipe web app built for Bengalis living in Bangalore — helping you cook authentic home food with ingredients you can actually find locally. Check it out at [bengali-kitchen-blr.vercel.app](https://bengali-kitchen-blr.vercel.app/)
+
+---
 
 ## What It Does
 
@@ -8,13 +10,51 @@ A Bengali recipe web app built for Bengalis living in Bangalore — helping you 
 - **Recipe Browser** — Browse and filter all recipes by category, meal type, dietary preference (veg/non-veg), cook time, and tags.
 - **Recipe Detail Pages** — Each recipe includes the Bengali name (in Bengali script), region of origin, difficulty, full ingredient list with **Bangalore-specific substitutes** (e.g. where to find Hilsa at KR Market), and quick order links for Blinkit, BigBasket, and Swiggy.
 
+---
+
+## Product Thinking
+
+### The Problem
+Bengalis in Bangalore want to cook home food — but the recipes online assume you're in Kolkata. You search for "shorshe ilish" and get a list of ingredients you can't find at your local supermarket. The cuisine is hyper-local, and the ingredient supply chain doesn't follow you when you move cities.
+
+### The Design Decisions
+
+**1. Locality as a first-class feature**
+Every ingredient has a `bangaloreSubstitute` field. This isn't an afterthought — it's in the data schema. The insight: the recipe itself doesn't change, but the *sourcing* is what breaks down when you're 2000km from home. We made that the primary problem to solve.
+
+**2. Time-aware meal planning**
+Weekdays are constrained (≤30 min). Weekends aren't. The planner encodes this as a hard filter, not a suggestion. This respects real life — you don't need a planning app that ignores Monday mornings.
+
+**3. Static data, zero backend**
+All recipe data lives in a single `data/recipes.json`. No database, no API, no auth. This was a deliberate scope decision: the content is curated and stable, so a static file is faster to build, cheaper to host, and easier to reason about. We can always migrate later.
+
+**4. Direct commerce links**
+Each ingredient links directly to Blinkit, BigBasket, and Swiggy search results. The friction between "I want to cook this" and "I have the ingredients" is the drop-off point. We try to close that gap in one tap.
+
+**5. Bengali script as identity, not decoration**
+Every recipe shows the Bengali name in script (e.g. সর্ষে ইলিশ). It's not just aesthetic — it signals who this is for. Diaspora products often strip cultural identity to feel "universal." We went the other way.
+
+---
+
+## Built With Claude Code
+
+This entire app — data schema, components, meal planner logic, and deploy config — was built using [Claude Code](https://claude.ai/code). The workflow:
+
+1. Describe the product problem in plain language
+2. Claude scaffolds the data model and Next.js structure
+3. Iterate on features conversationally, with Claude writing and editing code directly
+4. Ship
+
+If you're curious about building something similar, the barrier is lower than you think. Pick a hyper-specific audience with a real problem, and start with the data model. The rest follows.
+
+---
+
 ## Tech Stack
 
-- [Next.js 16](https://nextjs.org/) (App Router) with TypeScript
+- [Next.js](https://nextjs.org/) (App Router) with TypeScript
 - [Tailwind CSS v4](https://tailwindcss.com/)
 - React 19
 - Recipe data in a local JSON file (`data/recipes.json`)
-
 
 ## Project Structure
 
@@ -40,23 +80,3 @@ data/
 | `npm run build` | Build for production |
 | `npm run start` | Start production server |
 | `npm run lint` | Run ESLint |
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.

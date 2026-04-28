@@ -11,14 +11,16 @@ export default function RecipesClient({ allRecipes }: { allRecipes: Recipe[] }) 
   const searchParams = useSearchParams()
   const [filtered, setFiltered] = useState<Recipe[]>(allRecipes)
   const [sortByTime, setSortByTime] = useState(false)
-  const [quickOnly, setQuickOnly] = useState(() => searchParams.get("quick") === "1")
+  const [maxTime, setMaxTime] = useState<number | undefined>(() =>
+    searchParams.get("quick") === "1" ? 30 : undefined
+  )
 
   const mainRecipes = useMemo(() => {
     let list = filtered.filter((r) => r.category !== "sweet")
-    if (quickOnly) list = list.filter((r) => r.cookTime <= 30)
+    if (maxTime) list = list.filter((r) => r.cookTime <= maxTime)
     if (sortByTime) list = [...list].sort((a, b) => a.cookTime - b.cookTime)
     return list
-  }, [filtered, quickOnly, sortByTime])
+  }, [filtered, maxTime, sortByTime])
 
   const sweets = useMemo(() => filtered.filter((r) => r.category === "sweet"), [filtered])
 
@@ -36,17 +38,27 @@ export default function RecipesClient({ allRecipes }: { allRecipes: Recipe[] }) 
         <FilterBar onFilter={setFiltered} />
       </div>
 
-      {/* #8 Sort + quick filter toolbar */}
+      {/* Sort + time filter toolbar */}
       <div className="flex gap-2 items-center mb-3 px-1">
         <button
-          onClick={() => setQuickOnly((q) => !q)}
+          onClick={() => setMaxTime((t) => (t === 30 ? undefined : 30))}
           className={`text-xs px-3 py-2.5 rounded-full font-semibold transition-colors ${
-            quickOnly
+            maxTime === 30
               ? "bg-emerald-500 text-white"
               : "bg-white border border-gray-200 text-gray-600 hover:border-emerald-400 hover:text-emerald-700"
           }`}
         >
           ⚡ Under 30 min
+        </button>
+        <button
+          onClick={() => setMaxTime((t) => (t === 45 ? undefined : 45))}
+          className={`text-xs px-3 py-2.5 rounded-full font-semibold transition-colors ${
+            maxTime === 45
+              ? "bg-emerald-500 text-white"
+              : "bg-white border border-gray-200 text-gray-600 hover:border-emerald-400 hover:text-emerald-700"
+          }`}
+        >
+          ⏳ Under 45 min
         </button>
         <button
           onClick={() => setSortByTime((s) => !s)}
@@ -71,7 +83,7 @@ export default function RecipesClient({ allRecipes }: { allRecipes: Recipe[] }) 
             <div>
               <p className="text-xs text-gray-400 mb-2 px-1">
                 {mainRecipes.length} recipe{mainRecipes.length !== 1 ? "s" : ""}
-                {quickOnly ? " · under 30 min" : ""}
+                {maxTime ? ` · under ${maxTime} min` : ""}
                 {sortByTime ? " · sorted by cook time" : ""}
               </p>
               <div className="bg-white rounded-2xl border border-amber-100 shadow-sm divide-y divide-gray-50">
@@ -82,10 +94,10 @@ export default function RecipesClient({ allRecipes }: { allRecipes: Recipe[] }) 
             </div>
           )}
 
-          {mainRecipes.length === 0 && quickOnly && (
+          {mainRecipes.length === 0 && maxTime && (
             <div className="text-center py-10 text-gray-400">
               <p className="text-3xl mb-2">⚡</p>
-              <p className="text-sm">No recipes under 30 min match the current filters.</p>
+              <p className="text-sm">No recipes under {maxTime} min match the current filters.</p>
             </div>
           )}
 
