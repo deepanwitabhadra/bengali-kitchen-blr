@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import "./globals.css"
 
 export const metadata: Metadata = {
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="border-t border-amber-100 py-6 text-center text-xs text-gray-400 mt-8">
           Made with love for Bengalis in Bangalore 🇮🇳
         </footer>
+        <SpeedInsights />
       </body>
     </html>
   )
